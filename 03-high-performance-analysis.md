@@ -21,7 +21,7 @@ The tasks you will perform in this exercise are:
 > **Note**: The tasks in this exercise must be run against the dedicated SQL pool (as opposed to the ones from exercise 1, which were run against the serverless SQL pool
 named "built-in" pool). Make sure you have `SQLPool01` selected before running each query:
 
-![Run queries against a dedicated SQL pool](/media/ex04-run-on-sql-pool.1.png)
+  ![Run queries against a dedicated SQL pool](/media/ex04-run-on-sql-pool.1.png)
 
 ---
 

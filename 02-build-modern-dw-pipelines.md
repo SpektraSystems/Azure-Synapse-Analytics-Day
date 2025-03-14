@@ -33,7 +33,7 @@ In this task, you see how easy it is to write into an SQL Pool table with Spark 
 
 2. Select **+ (1)**, then **Notebook (2)** to add a new notebook.
 
-   ![The new notebook menu item is highlighted.](media/new-notebook.png "New notebook")
+   ![The new notebook menu item is highlighted.](media/newimg1.png "New notebook")
 
 3. If not already attached, attach your Spark Compute **SparkPool02** by selecting it from the **Attach to** drop-down list and attach **PySpark(Python)** by selecting it from **Language** drop-down list.
 
@@ -183,6 +183,12 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
    ![ForEachComments ForEach activity is selected. Settings tab is shown. Items property is highlighted.](media/y8.png "ForEach Loop")
 
 5. Select **Copy data** activity named `Sentiment Analysis` **(1)** and switch to the **Source (2)** tab. The Copy Data activity's Source dataset is set to a REST resource **(3)** backed by Azure Cognitive Services. A POST **(4)** HTTP request will be made to the Azure Cognitive Services endpoint carrying a request body **(5)** that includes the text from the current iteration that will be analyzed for sentiments.
+
+   > **NOTE!** Add the below code in the **Request Body** if not already added. 
+
+   ``` 
+   { "documents": [{ "id": "@{item().id}", "language": "en", "text": "@{item().comment}" }] }
+   ```
 
    ![Copy data activity named Sentiment Analysis is selected. Source tab is open. Source dataset is set to a REST Data Source. Request body and method are highlighted.](media/ex2tsk2stp5.png "Copy Data REST Source")
 
