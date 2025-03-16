@@ -62,7 +62,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 2. Select **+**, then click on **Notebook** to add a new notebook.
 
-   ![The new notebook menu item is highlighted.](../media/new-notebook.png "New notebook")
+   ![The new notebook menu item is highlighted.](../media/new-notebookupd.png "New notebook")
 
 3. If not already attached, attach your Spark Compute **SparkPool01** by selecting it from the **Attach to** drop-down list and attach **PySpark(Python)** by selecting it from **Language** drop down list, then select **+ code** to create a new cell.
 
@@ -334,7 +334,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
     > Take a few minutes to review the various tabs in the configuration panel for this data source to get a better understanding of how it is configured, as you did above. Note that this data source relies on the `wwi_staging.DimCustomer_UniqueId` table from Azure Synapse Analytics for its data. `UniqueId` is supplied by a parameter to the data flow, which contains a substring of the Pipeline Run Id. Before running the pipeline, you will add a dependency to the Data Flow activity to ensure the Copy activity has populated the `wwi_staging.DimCustomer_UniqueId` in Azure Synapse Analytics before allowing the data flow to execute.
 
-    ![The DimCustomer data source is highlighted on the data flow canvas graph.](../media/ex02-orchestrate-data-flow-sources-dim-customer.1.png "Data flow canvas")
+    ![The DimCustomer data source is highlighted on the data flow canvas graph.](../media/ex02-orchestrate-data-flow-sources-dim-customer.1upd.png "Data flow canvas")
 
 27. Next, select the `JoinOnPostalCode` **(1)** transformation and ensure the **Join settings (2)** tab is selected to see how you can join datasets using a simple and intuitive graphical interface.
 
@@ -374,7 +374,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
 35. The last step before running the pipeline is to publish the changes you have made. Select **Publish all** on the toolbar.
 
-    ![The Publish all button is highlighted on the Synapse Analytics Studio toolbar.](../media/ex02-orchestrate-pipelines-publish-all.png "Publish")
+    ![The Publish all button is highlighted on the Synapse Analytics Studio toolbar.](../media/ex02-orchestrate-pipelines-publish-allupd.png "Publish")
 
 36. On the **Publish all** dialog, select **Publish**.
 
