@@ -12,7 +12,7 @@
 
       {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/README.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/ms-innovation/README.md",
 
         "Order": 1
 
@@ -20,7 +20,7 @@
 
       {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/01-explore-data-lake.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/ms-innovation/01-explore-data-lake.md",
 
         "Order": 2
 
@@ -28,7 +28,7 @@
 
       {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/02-build-modern-dw-pipelines.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/ms-innovation/02-build-modern-dw-pipelines.md",
 
         "Order": 3
 
@@ -36,7 +36,7 @@
 
       {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/03-high-performance-analysis.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/ms-innovation/03-high-performance-analysis.md",
 
         "Order": 4
 
@@ -44,7 +44,7 @@
 
       {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/04.1-lake-databases-database-templates.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/ms-innovation/04.1-lake-databases-database-templates.md",
 
         "Order": 5
 
@@ -52,14 +52,14 @@
 
       {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/05-log-telemetry-analytics.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/ms-innovation/05-log-telemetry-analytics.md",
 
         "Order": 6
 
       },
        {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/06-data-governance-purview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/ms-innovation/06-data-governance-purview.md",
 
         "Order": 7
 
@@ -67,7 +67,7 @@
       
             {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/07-power-bi-integration.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/ms-innovation/07-power-bi-integration.md",
 
         "Order": 8
 
