@@ -285,7 +285,7 @@ In this task, you will browse your data lake using SQL On-demand.
   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-    <validation step="d20e6f30-60c0-4061-b31a-35a1be5f5712" />
+    <validation step="76322c07-098f-41c8-8df7-b2f57cd86f97" />
 
 16. **Important**: If you are continuing to Exercise 2 now, _leave this notebook open for the first task_ of the next exercise. This way, you can continue to use this notebook and the running Spark session, saving you time.
 
