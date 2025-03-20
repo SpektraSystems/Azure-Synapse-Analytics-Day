@@ -49,7 +49,7 @@ In this task, you will verify Data Explorer database is present and create a tab
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="33893e24-030e-40f9-acd2-417fad316448" />
+<validation step="220079db-2d90-4fc5-9a3f-e0f88b221bf7" />
 
 ## Task 2 - Perform manual data ingestion using a Synapse Pipeline
 
@@ -67,7 +67,7 @@ In this task, you will trigger a Synapse Pipeline to perform manual data ingesti
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="3280e9ca-da0f-459b-bffd-ea1461c654f9" />
+<validation step="185138ac-4e74-4418-a5b8-4a154f2e9a33" />
 
 ## Task 3 - Run KQL queries from Synapse Studio
 
