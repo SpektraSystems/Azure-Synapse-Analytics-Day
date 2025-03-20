@@ -151,7 +151,7 @@ In this task, you see how easy it is to write into an SQL Pool table with Spark 
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-  <validation step="13e4cc15-01f7-4923-9295-d9b559271984" />
+  <validation step="fa9b43ac-caba-4e6b-aeaa-b55b656d2646" />
 
 ## Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
 
@@ -454,7 +454,7 @@ After you finish building and debugging your data flow and its associated pipeli
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="b49fd917-9676-43fa-a48e-37d7384b71db" />
+   <validation step="35bfd293-7aa1-4826-918c-0f6820c2dabb" />
   
   
 ## Task 4 - Monitor Spark applications
