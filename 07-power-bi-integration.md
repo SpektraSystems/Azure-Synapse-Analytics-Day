@@ -196,7 +196,7 @@ If you do not see a list of data fields under Fields, follow the steps below for
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="3f7d7f59-58b6-4cbd-a84c-e879f6b6f784" />
+<validation step="af57de3e-a990-4f89-814b-0b6d15219dfc" />
 
 ## Summary 
 
