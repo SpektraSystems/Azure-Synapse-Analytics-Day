@@ -80,7 +80,7 @@ In this task, you will trigger the execution of a Synapse Pipeline to generate d
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="b123a179-1f12-4d32-854e-bafc977d9f15" />
+<validation step="eaf036e3-299e-4b0c-a9e6-072d8b9ef5c7" />
 
 ## Task 3 - Discover data assets using Azure Purview-powered search
 
