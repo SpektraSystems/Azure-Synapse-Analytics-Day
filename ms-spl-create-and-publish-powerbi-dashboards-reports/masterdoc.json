@@ -19,7 +19,14 @@
       },
       {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/v2-2022/ms-spl-create-and-publish-powerbi-dashboards-reports/hol1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/v2-2022/ms-spl-create-and-publish-powerbi-dashboards-reports/hol1-task1and2.md",
+
+        "Order": 2
+
+      },
+      {
+
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/v2-2022/ms-spl-create-and-publish-powerbi-dashboards-reports/hol1-task3and4.md",
 
         "Order": 2
 

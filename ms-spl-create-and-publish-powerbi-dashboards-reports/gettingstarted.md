@@ -1,18 +1,18 @@
-# Hands-On-Lab: SQL Datawarehouse with Syanpse
+# SQL Datawarehouse with Syanpse
 
-### Overall Estimated Duration: 4 hours
+### Estimated Duration: 4 Hours
 
 ## Overview
 
-In this lab, you will use a pipeline with parallel activities to bring data into the Data Lake, transform it, and load it into the Azure Synapse SQL Pool. You will also monitor the progress of the associated tasks.
+In this lab, you will build and execute a pipeline with parallel activities to ingest data into Azure Data Lake, perform transformations, and load the results into an Azure Synapse dedicated SQL pool. You will also validate and monitor pipeline execution and task status throughout the workflow.
 
-Once data is properly understood and interpreted, moving it to the various destinations where processing steps occur is the next big task. Any modern data platform must provide a seamless experience for all the typical data wrangling actions like extractions, parsing, joining, standardizing, augmenting, cleansing, consolidating, and filtering.
+Reliable analytics requires systematic movement and processing of data. After exploring and profiling datasets, the next step is to route them to the appropriate processing and storage locations while performing essential data-wrangling tasks such as extraction, parsing, joins, normalization, augmentation, cleansing, consolidation, and filtering.
 
-Azure Synapse Analytics provides two significant categories of features - data flows and data orchestrations (implemented as pipelines). They cover the whole range of needs, from design and development to triggering, execution, and monitoring.
+Azure Synapse Analytics delivers two complementary capabilities for these requirements: Data Flows for scalable, low-code transformations, and Pipelines for orchestration and execution. Together they support the full lifecycle of data integration—design, development, scheduling, execution, and monitoring.
 
-## Objective
+## Objectives
 
-This lab provides hands-on experience in building a modern data warehouse using Azure Synapse Analytics. Participants will ingest, transform, and load data using Synapse Notebooks, Data Flows, and Pipelines, while also learning to monitor pipeline execution and Spark application performance.
+This lab provides practical, hands‑on experience building a modern data warehouse with Azure Synapse Analytics. You will ingest, transform, and load datasets using Synapse Notebooks, Data Flows, and Pipelines, and will learn to monitor pipeline execution and Spark application performance to validate results and optimize workloads.
 
 - **Explore and modify a notebook**: Use Synapse Notebooks to process and transform data.
 - **Explore, modify, and run a Pipeline containing a Data Flow**: Perform ETL operations using Data Flows.
@@ -50,7 +50,7 @@ The architecture for this lab involves several key components:
   
 ## Getting Started with Lab
 
-Welcome to the SQL Datawarehouse with Syanpse Lab! We've prepared an interactive environment for you to explore Synapse Pipelines, Notebooks, Data Flows, and Spark monitoring. 
+We've prepared an interactive environment for you to explore Synapse Pipelines, Notebooks, Data Flows, and Spark monitoring. 
 
 ## Accessing Your Lab Environment
  
@@ -68,19 +68,19 @@ In the integrated environment, the lab VM serves as the designated workspace, wh
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-   ![](../media/s3.png)
+   ![](../media/env-0112.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-   ![](../media/s4.png)
+   ![](../media/split-0112.png)
  
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
  
-   ![](../media/s5.png)
+   ![](../media/resources-0112.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
@@ -88,62 +88,28 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    ![](../media/s6.png)
 
-## Lab Validation   
-
-1. After completing the task, hit the **Validate** button under Validation tab integrated within your lab guide. If you receive a success message, you can proceed to the next task, if not, carefully read the error message and retry the step, following the instructions in the lab guide.
-
-   ![](../media/s8.png)
-
 ## Let's Get Started with Azure Portal
  
 1. On your virtual machine, click on the **Azure Portal** icon as shown below:
  
    ![](../media/s10.png)
+
 1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
 
    * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
    
-     ![](../media/s11.png)
+     ![](../media/signin-0112.png)
      
 1. Now enter the following password and click on **Sign in**.
    
-   * **Password**: <inject key="AzureAdUserPassword"></inject>
+   * **Temporary Access Pass**: <inject key="AzureAdUserPassword"></inject>
    
-     ![](../media/s12.png)
+     ![](../media/signin1-0112.png)
 
-1. If you see the pop-up **Stay Signed in?**, click **No**.
-1. If **Action required** pop-up window appears, click on **Next**.
-1. On **Start by getting the app** page, click on **Next**.
-1. Click on **Next** twice.
-1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**.
-
-   ![](../media/s14.jpg)
-
-   > Note:For Ios, Open app store and repeat the steps.
-
-   > Note: Skip If already installed.
-
-1. Open the app and tap on **Scan a QR code**.
-1. Scan the QR code visible on the screen and click on **Next**.
-
-   ![QR code](../media/s15.png)
-
-1. Enter the digit displayed on the Screen in the Authenticator app on mobile and tap on **Yes**.
-1. Once the notification is approved, click on **Next**.
-
-   ![Approved](../media/s16.png)
-
-1. Click on **Done**.
-1. If prompted to stay signed in, you can click **"No"**.
-
-1. Tap on **Finish** in the Mobile Device.
-
-   > NOTE: While logging in again , enter the digits displayed on the screen in the **Authenticator app** and click on Yes.
+1. If you see the pop-up **Stay Signed in?**, click **Yes**.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
 1. Use **Next** button from lower right corner to move on to the next page.
 
 ## Support Contact
