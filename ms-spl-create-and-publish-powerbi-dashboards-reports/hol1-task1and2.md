@@ -30,21 +30,11 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 3. Select **SQLPool01 (1)** and **Resume (2)** it before starting the exercise. Select **Yes** on the pop-up.
 
-   ![SQLPool01 is highlighted.](../media/sT1S3.1-011223.png "SQLPool01")
+   ![SQLPool01 is highlighted.](../media/T1S3.1-0312.png "SQLPool01")
 
    ![Resume sqlpool](../media/T1S3.2-0112.png "Resume")
 
    >**Note :** You can ignore if it is already in running state.
-     
-4. Return to the resource group, then select the **asadataexplorer<inject key="uniqueId" enableCopy="false"/> (1)** and **start (2)** it. 
-
-   > **Note**: Please note starting of data explorer pool might take a few minutes, you don't have to wait for it to be started you can proceed to the next steps.
-
-   ![SQLPool01 is highlighted.](../media/T1S4.1-0112.png "SQLPool01")
-   
-   ![SQLPool01 is highlighted.](../media/T1S4.2-0112.png "SQLPool01")
-   
-   >**Note**: In case the data explorer is in a stopping state. Please continue with the lab as we need it in exercise 4. You can visit this page after a few minutes and start it.
 
 5. In Azure portal search for **Azure Synapse Analytics (1)** and select **Azure Synapse Analytics (2)** from the list.
 
