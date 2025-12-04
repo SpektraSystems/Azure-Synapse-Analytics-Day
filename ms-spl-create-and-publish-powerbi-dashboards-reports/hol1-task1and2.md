@@ -58,7 +58,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 10. If not already attached, attach your Spark Compute **SparkPool01 (1)** by selecting it from the **Attach to** drop-down list and attach **PySpark(Python) (2)** by selecting it from **Language** drop down list.
 
-   ![The Spark pool is selected in the Attach to drop-down.](../media/T1S10-0112.png "Add code")
+    ![The Spark pool is selected in the Attach to drop-down.](../media/T1S10-0112.png "Add code")
 
 11. Paste the following into the new cell and **replace** `YOUR_DATALAKE_NAME` with your storage account name **<inject key="Storage Account Name"></inject> (1)**.
 
