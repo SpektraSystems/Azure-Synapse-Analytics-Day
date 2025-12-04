@@ -58,6 +58,8 @@ Once you're ready to dive in, your virtual machine and **Lab Guide** will be rig
 
    ![](../media/guide-0312.png) 
 
+  >**Note:** After launching the lab if you see a **Send diagnostic data to Microsoft** window, click on Accept to continue. 
+
 ## Virtual Machine & Lab Guide
 
 In the integrated environment, the lab VM serves as the designated workspace, while the lab guide is accessible on the right side of the screen.
