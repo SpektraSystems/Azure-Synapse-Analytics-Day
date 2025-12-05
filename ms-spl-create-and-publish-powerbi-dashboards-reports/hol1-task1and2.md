@@ -386,4 +386,4 @@ In this exercise, we explored and modified a Synapse notebook to understand data
 
 Now, click on **Next** from the lower right corner to move on to the next tasks.
 
-![](../media/s7.png)
+![](../media/next-0312.png)
