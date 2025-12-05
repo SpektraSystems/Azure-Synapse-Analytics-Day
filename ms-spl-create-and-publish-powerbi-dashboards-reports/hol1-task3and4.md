@@ -1,4 +1,4 @@
-## Exercise 2: Monitoring Pipelines & Spark Applications
+# Exercise 2: Monitoring Pipelines & Spark Applications
 
 ### Estimated Duration: 2 Hours
 
