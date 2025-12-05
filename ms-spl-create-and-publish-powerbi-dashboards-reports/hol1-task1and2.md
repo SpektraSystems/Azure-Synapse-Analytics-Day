@@ -13,7 +13,7 @@ In this exercise, you will perform the following tasks:
   - Task 1 - Explore and modify a notebook
   - Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
 
-## Task 1 - Explore and modify a notebook
+### Task 1 - Explore and modify a notebook
 
 In this task, you see how easy it is to write into a SQL Pool table with Spark thanks to the SQL Analytics Connector. Notebooks are used to write the code required to write to SQL Pool tables using Spark.
 
@@ -175,7 +175,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 <validation step="0ed2a2e6-1b08-4524-a785-7ec3111f94c9" />
 
-## Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
+### Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
 
 In this task, you use a Pipeline that implements Code-free AI to do sentiment analysis on customer feedback and contains a Data Flow to explore, transform, and load data into an Azure Synapse Analytics table. Using Cognitive Services and data flows in Pipelines allows you to handle code-free AI workloads, perform data ingestion and transformations, similar to what you did in Task 1, but without writing any code
 
