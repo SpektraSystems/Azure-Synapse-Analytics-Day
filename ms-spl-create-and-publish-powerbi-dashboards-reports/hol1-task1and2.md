@@ -1,20 +1,17 @@
-# SQL Datawarehouse with Syanpse
+# Exercise 1: Data Exploration & Pipeline Development
 
-### Estimated Duration: 4 Hours
+### Estimated Duration: 2 Hours
 
 ## Overview
 
-In this lab, you examine various methods for ingesting data into Azure Synapse Analytics and Azure Data Lake Storage Gen2. You use notebooks and Data Flows to ingest, transform, and load data.
+In this exercise, you explore and modify a Synapse notebook to understand how data is loaded, transformed, and analyzed. You then work with a Synapse Pipeline that includes a Data Flow, modify its activities, and execute it to validate the end-to-end data transformation process.
 
 ## Objectives
 
-In this lab, you will perform the following tasks:
+In this exercise, you will perform the following tasks:
 
   - Task 1 - Explore and modify a notebook
   - Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
-  - Task 3 - Monitor pipelines
-    - Task 3.1: Bonus: Inspect Sentiment Analysis Results
-  - Task 4 - Monitor Spark applications
 
 ## Task 1 - Explore and modify a notebook
 
@@ -382,6 +379,10 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
     ![The OK button is highlighted in the Pipeline run dialog.](../media/ex02-orchestrate-pipelines-trigger-run.png "Pipeline run trigger")
 
 40. To monitor the pipeline run, move on to the next task.
+
+## Summary 
+
+In this exercise, we explored and modified a Synapse notebook to understand data transformations and analytical steps. We also updated and executed a Synapse pipeline containing a Data Flow to validate end-to-end processing. This provided a hands-on foundation for building and orchestrating data workflows in Synapse.
 
 Now, click on **Next** from the lower right corner to move on to the next tasks.
 
