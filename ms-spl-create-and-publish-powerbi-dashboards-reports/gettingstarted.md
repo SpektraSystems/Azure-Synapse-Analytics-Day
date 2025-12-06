@@ -56,7 +56,9 @@ We've prepared an interactive environment for you to explore Synapse Pipelines, 
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
 
-   ![](../media/s9.png) 
+   ![](../media/guide-0312.png) 
+
+  >**Note:** After launching the lab if you see a **Send diagnostic data to Microsoft** window, click on Accept to continue. 
 
 ## Virtual Machine & Lab Guide
 
@@ -122,6 +124,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
-![](../media/s7.png)
+![](../media/next-0312.png)
 
 ### Happy Learning!!

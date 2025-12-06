@@ -1,4 +1,20 @@
-## Task 3 - Monitor pipelines
+# Exercise 2: Monitoring Pipelines & Spark Applications
+
+### Estimated Duration: 2 Hours
+
+## Overview
+
+This exercise focuses on operational monitoring in Synapse, where you review pipeline runs, debug failures, and inspect sentiment analysis output as a bonus. You also monitor Spark application execution to understand performance, logs, and resource utilization across the cluster.
+
+## Objectives
+
+In this exercise, you will perform the following tasks:
+
+  - Task 1 - Monitor pipelines
+    - Task 1.1: Bonus: Inspect Sentiment Analysis Results
+  - Task 2 - Monitor Spark applications
+
+### Task 1 - Monitor pipelines
 
 After you finish building and debugging your data flow and its associated pipeline, you will want to be able to monitor the execution of the pipeline and all of the activities contained within it, including the Data Flow activity. In this task, you review the [pipeline monitoring functionality in Azure Synapse Analytics](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-monitoring) using the pipeline run you initiated at the end of the previous task.
 
@@ -84,7 +100,7 @@ After you finish building and debugging your data flow and its associated pipeli
 
 <validation step="bee8c9be-ae41-447a-abc8-06578a8aa9d9" />
 
-### Task 3.1: Bonus: Inspect Sentiment Analysis Results
+### Task 1.1: Bonus: Inspect Sentiment Analysis Results
 
 Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipeline? Once your pipeline's execution is complete we have some sentiment data we can look into.
 
@@ -112,7 +128,7 @@ Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipe
 
     Your query targets the JSON files created as the result of the Sentiment analysis run through Azure Cognitive Services. Here you see a simple query that shows the list of Customer IDs and how their feedback is interpreted in the context of sentiment reflection.
     
-## Task 4 - Monitor Spark applications
+## Task 2 - Monitor Spark applications
 
 In this task, you examine the Apache Spark application monitoring capabilities built into Azure Synapse Analytics. The Spark application monitoring screens provide a view into the logs for the Spark application, including a graphical view of those logs.
 
@@ -178,6 +194,10 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
 ## Summary
 
-In this lab, you used **Azure Synapse Analytics** to build a **modern data warehouse** by ingesting, transforming, and monitoring data. You explored **Synapse Notebooks** to process and transform data, modified and executed a **Pipeline with a Data Flow** for ETL operations, and monitored **pipelines and Spark applications** to optimize performance and troubleshoot execution issues.
+In this exercise, we monitored pipeline executions, reviewed run history, and examined sentiment analysis outputs. We also tracked Spark application performance to understand execution behavior and resource usage. This helped build practical skills in operational monitoring and troubleshooting within Synapse.
 
-## You have successfully completed the lab.
+### You have successfully completed the lab.
+
+## Conclusion
+
+In this lab, you used **Azure Synapse Analytics** to build a **modern data warehouse** by ingesting, transforming, and monitoring data. You explored **Synapse Notebooks** to process and transform data, modified and executed a **Pipeline with a Data Flow** for ETL operations, and monitored **pipelines and Spark applications** to optimize performance and troubleshoot execution issues.

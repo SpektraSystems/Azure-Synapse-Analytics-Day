@@ -1,22 +1,19 @@
-# SQL Datawarehouse with Syanpse
+# Exercise 1: Data Exploration & Pipeline Development
 
-### Estimated Duration: 4 Hours
+### Estimated Duration: 2 Hours
 
 ## Overview
 
-In this lab, you examine various methods for ingesting data into Azure Synapse Analytics and Azure Data Lake Storage Gen2. You use notebooks and Data Flows to ingest, transform, and load data.
+In this exercise, you explore and modify a Synapse notebook to understand how data is loaded, transformed, and analyzed. You then work with a Synapse Pipeline that includes a Data Flow, modify its activities, and execute it to validate the end-to-end data transformation process.
 
 ## Objectives
 
-In this lab, you will perform the following tasks:
+In this exercise, you will perform the following tasks:
 
   - Task 1 - Explore and modify a notebook
   - Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
-  - Task 3 - Monitor pipelines
-    - Task 3.1: Bonus: Inspect Sentiment Analysis Results
-  - Task 4 - Monitor Spark applications
 
-## Task 1 - Explore and modify a notebook
+### Task 1 - Explore and modify a notebook
 
 In this task, you see how easy it is to write into a SQL Pool table with Spark thanks to the SQL Analytics Connector. Notebooks are used to write the code required to write to SQL Pool tables using Spark.
 
@@ -30,21 +27,11 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 3. Select **SQLPool01 (1)** and **Resume (2)** it before starting the exercise. Select **Yes** on the pop-up.
 
-   ![SQLPool01 is highlighted.](../media/sT1S3.1-011223.png "SQLPool01")
+   ![SQLPool01 is highlighted.](../media/T1S3.1-0312.png "SQLPool01")
 
    ![Resume sqlpool](../media/T1S3.2-0112.png "Resume")
 
    >**Note :** You can ignore if it is already in running state.
-     
-4. Return to the resource group, then select the **asadataexplorer<inject key="uniqueId" enableCopy="false"/> (1)** and **start (2)** it. 
-
-   > **Note**: Please note starting of data explorer pool might take a few minutes, you don't have to wait for it to be started you can proceed to the next steps.
-
-   ![SQLPool01 is highlighted.](../media/T1S4.1-0112.png "SQLPool01")
-   
-   ![SQLPool01 is highlighted.](../media/T1S4.2-0112.png "SQLPool01")
-   
-   >**Note**: In case the data explorer is in a stopping state. Please continue with the lab as we need it in exercise 4. You can visit this page after a few minutes and start it.
 
 5. In Azure portal search for **Azure Synapse Analytics (1)** and select **Azure Synapse Analytics (2)** from the list.
 
@@ -68,7 +55,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 10. If not already attached, attach your Spark Compute **SparkPool01 (1)** by selecting it from the **Attach to** drop-down list and attach **PySpark(Python) (2)** by selecting it from **Language** drop down list.
 
-   ![The Spark pool is selected in the Attach to drop-down.](../media/T1S10-0112.png "Add code")
+    ![The Spark pool is selected in the Attach to drop-down.](../media/T1S10-0112.png "Add code")
 
 11. Paste the following into the new cell and **replace** `YOUR_DATALAKE_NAME` with your storage account name **<inject key="Storage Account Name"></inject> (1)**.
 
@@ -188,7 +175,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 <validation step="0ed2a2e6-1b08-4524-a785-7ec3111f94c9" />
 
-## Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
+### Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
 
 In this task, you use a Pipeline that implements Code-free AI to do sentiment analysis on customer feedback and contains a Data Flow to explore, transform, and load data into an Azure Synapse Analytics table. Using Cognitive Services and data flows in Pipelines allows you to handle code-free AI workloads, perform data ingestion and transformations, similar to what you did in Task 1, but without writing any code
 
@@ -393,6 +380,10 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
 40. To monitor the pipeline run, move on to the next task.
 
+## Summary 
+
+In this exercise, we explored and modified a Synapse notebook to understand data transformations and analytical steps. We also updated and executed a Synapse pipeline containing a Data Flow to validate end-to-end processing. This provided a hands-on foundation for building and orchestrating data workflows in Synapse.
+
 Now, click on **Next** from the lower right corner to move on to the next tasks.
 
-![](../media/s7.png)
+![](../media/next-0312.png)
