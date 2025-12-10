@@ -52,16 +52,9 @@
 
       {
 
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/05-log-telemetry-analytics.md",
-
-        "Order": 6
-
-      },
-       {
-
         "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/06-data-governance-purview.md",
 
-        "Order": 7
+        "Order": 6
 
       },
       
@@ -69,7 +62,7 @@
 
         "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Azure-Synapse-Analytics-Day/guided-lab/07-power-bi-integration.md",
 
-        "Order": 8
+        "Order": 7
 
       }
 
