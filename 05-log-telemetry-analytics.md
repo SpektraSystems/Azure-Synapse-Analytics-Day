@@ -1,6 +1,6 @@
-# Exercise 5 - Log and telemetry analytics
+# Exercise 05: Log and telemetry analytics
 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 30 Minutes
 
 In this exercise, you will explore the capabilities of the newly integrated Data Explorer runtime in Synapse Analytics.
 
@@ -10,12 +10,12 @@ Azure Synapse data explorer provides you with a dedicated query engine optimized
 
 The tasks you will perform in this exercise are:
 
-- Task 1 - Create a table for data ingestion in the Data Explorer database 
-- Task 2 - Perform manual data ingestion using a Synapse Pipeline
-- Task 3 - Run KQL queries from Synapse Studio
-- Task 4 - Load Data Explorer data into a Spark dataframe
+- Task 1: Create a table for data ingestion in the Data Explorer database 
+- Task 2: Perform manual data ingestion using a Synapse Pipeline
+- Task 3: Run KQL queries from Synapse Studio
+- Task 4: Load Data Explorer data into a Spark dataframe
 
-## Task 1 - Create a table for data ingestion in the Data Explorer database 
+## Task 1: Create a table for data ingestion in the Data Explorer database 
 
 In this task, you will verify Data Explorer database is present and create a table to ingest sales telemetry data.
 
@@ -51,7 +51,7 @@ In this task, you will verify Data Explorer database is present and create a tab
 
 <validation step="220079db-2d90-4fc5-9a3f-e0f88b221bf7" />
 
-## Task 2 - Perform manual data ingestion using a Synapse Pipeline
+## Task 2: Perform manual data ingestion using a Synapse Pipeline
 
 In this task, you will trigger a Synapse Pipeline to perform manual data ingestion into the table created in Task 1.
 
@@ -69,7 +69,7 @@ In this task, you will trigger a Synapse Pipeline to perform manual data ingesti
 
 <validation step="185138ac-4e74-4418-a5b8-4a154f2e9a33" />
 
-## Task 3 - Run KQL queries from Synapse Studio
+## Task 3: Run KQL queries from Synapse Studio
 
 In this task, you will query the sales telemetry data using a KQL script run from Synapse Studio.
 
@@ -91,7 +91,7 @@ In this task, you will query the sales telemetry data using a KQL script run fro
 >
 >Change the KQL query to return the most recent 1000 product searches.
 
-## Task 4 - Load Data Explorer data into a Spark dataframe
+## Task 4: Load Data Explorer data into a Spark dataframe
 
 In this task, you will load data from a Data Explorer table into a Spark dataframe.
 
@@ -125,8 +125,18 @@ In this task, you will load data from a Data Explorer table into a Spark datafra
 
    ![Count number of product searches](./media/ex05-load-data-explorer-query-into-spark-results-2.png)
 
-## Summary 
+## Summary
 
-In this exercise , we explored Azure Synapse's Data Explorer capabilities for log and telemetry analytics. We created a table for ingesting sales telemetry data, triggered data ingestion using a Synapse Pipeline, and ran KQL queries to analyze the data. Additionally, we loaded Data Explorer data into a Spark dataframe for further processing. This exercise enhanced our skills in managing and querying telemetry data, leveraging the powerful indexing and querying features of Azure Synapse Data Explorer.
+In this lab, you have completed the following:
 
-### You have successfully completed the lab.
+- Created a table for data ingestion in the Data Explorer database.
+
+- Performed manual data ingestion using a Synapse Pipeline.
+
+- Executed KQL queries from Synapse Studio.
+
+- Loaded Data Explorer data into a Spark DataFrame.
+
+### You have successfully completed the lab. Now, click on **Next >>** from the lower right corner to proceed on to the next lab.
+
+![](media/new/next.png)

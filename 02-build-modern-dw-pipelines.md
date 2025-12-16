@@ -1,6 +1,6 @@
-# Exercise 2 - Build a Modern Data Warehouse with Azure Synapse Pipelines
+# Exercise 02: Build a Modern Data Warehouse with Azure Synapse Pipelines
 
-### Estimated Duration: 90 minutes
+### Estimated Duration: 90 Minutes
 
 In this exercise, you examine various methods for ingesting data into Azure Synapse Analytics and Azure Data Lake Storage Gen2. You use notebooks and Data Flows to ingest, transform, and load data.
 
@@ -8,10 +8,10 @@ In this exercise, you examine various methods for ingesting data into Azure Syna
 
 The tasks you will perform in this exercise are:
 
-- Task 1 - Explore and modify a notebook
-- Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
-- Task 3 - Monitor pipelines
-- Task 4 - Monitor Spark applications
+- Task 1: Explore and modify a notebook
+- Task 2: Explore, modify, and run a Pipeline containing a Data Flow
+- Task 3: Monitor pipelines
+- Task 4: Monitor Spark applications
 
 ---
 
@@ -23,7 +23,7 @@ Please locate this value and note it for the steps below.
 
 ---
 
-## Task 1 - Explore and modify a notebook
+## Task 1: Explore and modify a notebook
 
 In this task, you see how easy it is to write into an SQL Pool table with Spark thanks to the SQL Analytics Connector. Notebooks are used to write the code required to write to SQL Pool tables using Spark.
 
@@ -153,7 +153,7 @@ In this task, you see how easy it is to write into an SQL Pool table with Spark 
 
   <validation step="fa9b43ac-caba-4e6b-aeaa-b55b656d2646" />
 
-## Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
+## Task 2: Explore, modify, and run a Pipeline containing a Data Flow
 
 In this task, you use a Pipeline that implements Code-free AI to do sentiment analysis on customer feedback and contains a Data Flow to explore, transform, and load data into an Azure Synapse Analytics table. Using Cognitive Services and data flows in Pipelines allows you to handle code-free AI workloads, and perform data ingestion and transformations, similar to what you did in Task 1, but without writing any code
 
@@ -370,7 +370,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
 40. To monitor the pipeline run, move on to the next task.
 
-## Task 3 - Monitor pipelines
+## Task 3: Monitor pipelines
 
 After you finish building and debugging your data flow and its associated pipeline, you will want to be able to monitor the execution of the pipeline and all of the activities contained within it, including the Data Flow activity. In this task, you review the [pipeline monitoring functionality in Azure Synapse Analytics](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-monitoring) using the pipeline run you initiated at the end of the previous task.
 
@@ -454,10 +454,9 @@ After you finish building and debugging your data flow and its associated pipeli
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="35bfd293-7aa1-4826-918c-0f6820c2dabb" />
+<validation step="35bfd293-7aa1-4826-918c-0f6820c2dabb" />
   
-  
-## Task 4 - Monitor Spark applications
+## Task 4: Monitor Spark applications
 
 In this task, you examine the Apache Spark application monitoring capabilities built into Azure Synapse Analytics. The Spark application monitoring screens provide a view of the logs for the Spark application, including a graphical view of those logs.
 
@@ -523,6 +522,16 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
 ## Summary
 
-In this exercise, you explore data ingestion methods into Azure Synapse Analytics and Azure Data Lake Storage Gen2. First, you'll use a notebook to load CSV data from ADLS Gen2 into a Synapse SQL Pool table via Spark and the SQL Analytics Connector. Then, you will modify a pipeline that uses Data Flows and Code-free AI to perform sentiment analysis on customer feedback, loading the data into a Synapse table. This involves configuring data sources, transformations, and sinks in Data Flows to process and load the enriched data into Synapse Analytics.
+In this lab, you have completed the following:
 
-### You have successfully completed the lab.
+- Explored and modified a notebook.
+
+- Explored, modified, and executed a pipeline containing a Data Flow.
+
+- Monitored pipeline executions.
+
+- Monitored Spark applications.
+
+### You have successfully completed the lab. Now, click on **Next >>** from the lower right corner to proceed on to the next lab.
+
+![](media/new/next.png)

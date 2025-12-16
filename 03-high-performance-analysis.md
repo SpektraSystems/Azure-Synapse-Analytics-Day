@@ -1,6 +1,6 @@
-# Exercise 3 - High-Performance Analysis with Azure Synapse Dedicated SQL Pools
+# Exercise 03: High-Performance Analysis with Azure Synapse Dedicated SQL Pools
 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 30 Minutes
 
 In this exercise, you will use several of the capabilities associated with dedicated SQL Pools to analyze the data.
 
@@ -12,8 +12,8 @@ The dedicated SQL pool in Azure Synapse is the new incarnation of the former Azu
 
 The tasks you will perform in this exercise are:
 
-- Task 1 - Use a dedicated SQL pool query to understand a dataset
-- Task 2 - Investigate query performance and table design
+- Task 1: Use a dedicated SQL pool query to understand a dataset
+- Task 2: Investigate query performance and table design
 - Bonus Challenge
 
 ---
@@ -25,7 +25,7 @@ named "built-in" pool). Make sure you have `SQLPool01` selected before running e
 
 ---
 
-## Task 1 - Use a SQL Synapse Pool query to understand a dataset
+## Task 1: Use a SQL Synapse Pool query to understand a dataset
 
 In this task, you will try to understand who your best customers are.
 
@@ -48,7 +48,7 @@ In this task, you will try to understand who your best customers are.
 
    >**Note**: If you are not able to see the expected data in the bar chart. Please save the bar chart as an image and open it. You'll be able to see the data as expected.
 
-## Task 2 - Investigate query performance and table design
+## Task 2: Investigate query performance and table design
 
 In this task, you'll try to understand what the table design is at a general level. You will run the same set of queries against two fact tables (`FactSale_Fast` and `FactSale_Slow`). The two fact tables have (with one notable exception) the same structure and contain identical data.
 
@@ -112,8 +112,16 @@ Finally, the first two queries (the counts) were not that far apart performance-
 
 This simple example demonstrates one of the core challenges of modern, massively distributed data platforms - solid design. You witnessed first-hand how one decision taken at table design time can significantly influence the performance of queries. You also got a glimpse of Azure Synapse Analytics' raw power: the more efficient table design enabled a non-trivial query involving more than 80 million records to execute in just a few seconds.
 
-## Summary 
+## Summary
 
-In this exercise, we analyzed data using Azure Synapse Dedicated SQL Pools. We explored SQL Pool queries to gain insights into customer purchasing behavior and examined the performance differences between two fact tables with different distribution methods. We learned that table design, particularly distribution strategy, can significantly impact query performance. Additionally, we experienced how optimized data distribution can dramatically reduce query execution time, highlighting the importance of thoughtful table design in modern data platforms.
+In this lab, you have completed the following:
 
-### You have successfully completed the lab.
+- Used a dedicated SQL pool query to understand the dataset.
+
+- Investigated query performance and table design.
+
+- Completed the bonus challenge.
+
+### You have successfully completed the lab. Now, click on **Next >>** from the lower right corner to proceed on to the next lab.
+
+![](media/new/next.png)

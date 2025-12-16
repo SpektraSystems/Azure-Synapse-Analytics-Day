@@ -1,6 +1,6 @@
-# Exercise 1 - Explore the data lake with Azure Synapse SQL On-demand and Azure Synapse Spark
+# Exercise 01: Explore the data lake with Azure Synapse SQL On-demand and Azure Synapse Spark
 
-### Estimated Duration: 60 minutes
+### Estimated Duration: 60 Minutes
 
 In this exercise, you will explore data using the engine of your choice (SQL or Spark).
 
@@ -10,12 +10,12 @@ In Azure Synapse Analytics, you can use either the SQL Serverless engine, the bi
 
 ## Lab Objectives
 
-The tasks you will perform in this exercise are:
+You will be able to complete the following tasks:
 
-- Task 1 - Explore the Data Lake with Synapse SQL On-demand
-- Task 2 - Explore the Data Lake with Synapse Spark
+- Task 1: Explore the Data Lake with Synapse SQL On-demand
+- Task 2: Explore the Data Lake with Synapse Spark
 
-## Task 1 - Explore the data lake with Azure Synapse SQL On-demand
+## Task 1: Explore the data lake with Azure Synapse SQL On-demand
 
 In this task, you will browse your data lake using SQL On-demand.
 
@@ -181,7 +181,9 @@ In this task, you will browse your data lake using SQL On-demand.
 
     > This exports the results to CSV files in your data lake and defines a table schema that can be referenced directly in serverless SQL. You can test this by opening a **New Query** and running `SELECT * FROM QuarterlySales`. The results are now easy to query from analytics tools such as Power BI or you can download the files from the Data Lake.
 
-## Task 2 - Explore the data lake with Azure Synapse Spark
+## Task 2: Explore the data lake with Azure Synapse Spark
+
+In this task, you explored data in the data lake using Azure Synapse Spark.
 
 1. Navigate to the `Data` hub, browse to the data lake storage account folder `wwi/factsale-parquet/2012/Q1/InvoiceDateKey=2012-01-01`, then right-click the Parquet file and select `New notebook -> Load to DataFrame`
 
@@ -280,17 +282,24 @@ In this task, you will browse your data lake using SQL On-demand.
 
     > Without Adaptive Query Execution enabled, the group by and order by in this cell would result in over 400 tasks. Spark 3.0 has improved on these tuning options and introduced additional performance benefits which may be noticed when joining datasets and working with skewed data.
 
+16. **Important**: If you are continuing to Exercise 2 now, _leave this notebook open for the first task_ of the next exercise. This way, you can continue to use this notebook and the running Spark session, saving you time.
+
   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-    <validation step="76322c07-098f-41c8-8df7-b2f57cd86f97" />
+    
+<validation step="76322c07-098f-41c8-8df7-b2f57cd86f97" />
 
-16. **Important**: If you are continuing to Exercise 2 now, _leave this notebook open for the first task_ of the next exercise. This way, you can continue to use this notebook and the running Spark session, saving you time.
+## Summary
 
-## Summary 
+In this lab, you have completed the following:
 
-In this exercise, we explored a data lake using both Azure Synapse SQL On-demand and Azure Synapse Spark. We browsed through the data lake and queried Parquet and CSV files with SQL On-demand, learning to manage external data sources and build external tables. Then, we worked with Synapse Spark, loading and analyzing data from the data lake using PySpark, creating visualizations, and writing SQL queries against Delta Lake data. Throughout the exercise, we gained insights into using these powerful tools for data exploration and processing in Synapse Analytics.
+- Explored Data Lake data using Synapse SQL On-demand.
 
-### You have successfully completed the lab.
+- Analyzed Data Lake data using Synapse Spark.
+
+### You have successfully completed the lab. Now, click on **Next >>** from the lower right corner to proceed on to the next lab.
+
+![](media/new/next.png)

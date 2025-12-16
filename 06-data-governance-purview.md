@@ -1,6 +1,6 @@
-# Exercise 6 - Data governance with Azure Purview
+# Exercise 06: Data governance with Azure Purview
 
-### Estimated Duration: 60 minutes
+### Estimated Duration: 60 Minutes
 
 In this exercise, you will use several of the capabilities provided by the integration between Azure Synapse Analytics and Azure Purview workspaces.
 
@@ -12,13 +12,13 @@ Azure Synapse Analytics and Azure Purview workspaces are tightly integrated, ena
 
 The tasks you will perform in this exercise are:
 
-- Task 1 - Explore the integration of Azure Purview into the Azure Synapse Analytics workspace
-- Task 2 - Trigger automatic data lineage tracking when executing a Synapse Pipeline
-- Task 3 - Discover data assets using Azure Purview-powered search
-- Task 4 - Explore the results of scanning an Azure Synapse Analytics workspace from Azure Purview
-- Task 5 - Explore the results of data lineage tracking for Synapse Pipelines
+- Task 1: Explore the integration of Azure Purview into the Azure Synapse Analytics workspace
+- Task 2: Trigger automatic data lineage tracking when executing a Synapse Pipeline
+- Task 3: Discover data assets using Azure Purview-powered search
+- Task 4: Explore the results of scanning an Azure Synapse Analytics workspace from Azure Purview
+- Task 5: Explore the results of data lineage tracking for Synapse Pipelines
 
-## Task 1 - Explore the integration of Azure Purview into the Azure Synapse Analytics workspace
+## Task 1: Explore the integration of Azure Purview into the Azure Synapse Analytics workspace
 
 In this task, you will explore the connection between Synapse Analytics and a Purview workspace.
 
@@ -51,8 +51,7 @@ In this task, you will explore the connection between Synapse Analytics and a Pu
    - Data Catalog integration which allows the discovery of assets using a Purview-powered search
    - Data Lineage integration which allows automatic data lineage collection for Synapse Pipelines
     
-
-## Task 2 - Trigger automatic data lineage tracking when executing a Synapse Pipeline
+## Task 2: Trigger automatic data lineage tracking when executing a Synapse Pipeline
 
 In this task, you will trigger the execution of a Synapse Pipeline to generate data lineage information in the Purview workspace.
 
@@ -82,7 +81,7 @@ In this task, you will trigger the execution of a Synapse Pipeline to generate d
 
 <validation step="eaf036e3-299e-4b0c-a9e6-072d8b9ef5c7" />
 
-## Task 3 - Discover data assets using Azure Purview-powered search
+## Task 3: Discover data assets using Azure Purview-powered search
 
 In this task, you will discover Synapse Analytics assets using Purview search.
 
@@ -106,7 +105,7 @@ In this task, you will discover Synapse Analytics assets using Purview search.
     - The information about the asset was last updated by an automated scan run from the Purview workspace
     - The hierarchy the asset belongs to
 
-## Task 4 - Explore the results of scanning an Azure Synapse Analytics workspace from Azure Purview
+## Task 4: Explore the results of scanning an Azure Synapse Analytics workspace from Azure Purview
 
 In this task, you will explore the results of scanning the Synapse Analytics workspace from the Purview workspace.
 
@@ -146,7 +145,9 @@ In this task, you will explore the results of scanning the Synapse Analytics wor
 
     Keep the list of collection assets open as this will be the starting point for the next task.
 
-## Task 5 - Explore the results of data lineage tracking for Synapse Pipelines
+## Task 5: Explore the results of data lineage tracking for Synapse Pipelines
+
+In this task, you will explore Synapse Pipeline data lineage in Azure Purview.
 
 1. In the list of Purview collection assets, note the `Copy data1` asset of type Azure Synapse Analytics.
 
@@ -173,8 +174,20 @@ This exercise demonstrated the integration between Azure Synapse Analytics and A
 - [Connect to and manage Azure Synapse Analytics workspaces in Azure Purview](https://docs.microsoft.com/en-us/azure/purview/register-scan-synapse-workspace)
 - [Connect a Synapse workspace to an Azure Purview account](https://docs.microsoft.com/en-us/azure/synapse-analytics/catalog-and-governance/quickstart-connect-azure-purview)
 
-## Summary 
+## Summary
 
-In this exercise, we integrated Azure Purview with Azure Synapse Analytics to enhance data governance. We explored the connection between Synapse and Purview, triggered data lineage tracking through Synapse Pipelines, and discovered data assets using Purview-powered search. Additionally, we examined scan results and data lineage details within Purview Studio. This exercise demonstrated how Purview's automated data discovery and lineage tracking can provide comprehensive insights into data assets and their relationships, facilitating better data management and governance.
+In this lab, you have completed the following:
 
-### You have successfully completed the lab.
+- Explored the integration of Azure Purview with Azure Synapse Analytics.
+
+- Triggered automatic data lineage tracking by executing a Synapse Pipeline.
+
+- Discovered data assets using Purview-powered search.
+
+- Reviewed scan results of an Azure Synapse Analytics workspace in Purview.
+
+- Explored data lineage details for Synapse Pipelines.
+
+### You have successfully completed the lab. Now, click on **Next >>** from the lower right corner to proceed on to the next lab.
+
+![](media/new/next.png)
