@@ -1,6 +1,6 @@
 # Azure Synapse Analytics in a Day Lab
 
-### Overall Estimated Duration: 8 hours
+### Overall Estimated Duration: 8 Hours
 
 ## Overview
 
@@ -24,7 +24,7 @@ In this guided-lab, you will play the role of various persons: a data engineer, 
 
 By the end of this lab, you will have performed a non-exhaustive list of operations that combine the strength of Big Data and SQL analytics into a single platform.
 
-## Objective
+## Objectives
 
 The objective of the lab is to equip participants with the foundational skills and practical experience needed to leverage Azure Synapse Analytics for data integration, preparation, and analysis. By the end of the workshop, attendees will be proficient in ingesting and transforming data from diverse sources, utilizing SQL and Spark for data exploration, and integrating with Power BI for effective reporting. This hands-on experience aims to empower participants to implement data-driven solutions that enhance decision-making and drive business insights within their organizations.
 
@@ -42,7 +42,7 @@ The objective of the lab is to equip participants with the foundational skills a
   
 - **Power BI integration:** Enhance data visualization and reporting capabilities by seamlessly integrating Azure Synapse Analytics with Power BI, enabling users to create dynamic dashboards and interactive reports that provide real-time insights and support informed decision-making across the business.
 
-## Prerequisites
+## Pre-requisites
 
 Participants should have:
 
@@ -54,11 +54,11 @@ Participants should have:
 - **Familiarity with Data Visualization Tools:** Awareness of data visualization concepts and tools like Power BI will help participants leverage reporting capabilities effectively.
 - **Basic Programming Skills (Optional):** Familiarity with programming languages such as Python or R can be beneficial for using Azure Synapse Spark, although not mandatory.
 
-## Architechture
+## Architecture
 
 Various Azure services work together to create a cohesive analytics architecture. Key services include **Azure Synapse Analytics** for data integration, transformation, and analysis; **Azure Data Lake Storage** for scalable data storage; **Azure Synapse Pipelines** for orchestrating data workflows; **Azure Synapse SQL On-demand** and **Spark** for querying and analyzing large datasets; **Azure Dedicated SQL Pools** for high-performance data warehousing; and **Azure Purview** for data governance and cataloging. The architecture facilitates a seamless flow of data from diverse sources into the data lake, where it can be transformed and stored as lake databases. Participants will leverage these services to build an end-to-end data solution, enabling efficient data ingestion, real-time analytics, and insightful reporting through **Power BI** integration, all within a unified environment designed to drive data-driven decision-making in organizations.
 
-## Architechture Diagram
+## Architecture Diagram
 
 ![Azure Synapse Analytics Lab Exercises](./media/exercises1.png "Solution architecture")
 
@@ -88,75 +88,70 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
 
 ## Virtual Machine & Lab Guide
  
-In the integrated environment, the lab VM serves as the designated workspace, while the lab guide is accessible on the right side of the screen.
-
-**Note**: Kindly ensure that you are following the instructions carefully to ensure the lab runs smoothly and provides an optimal user experience.
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
 ## Exploring Your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-  ![](media/env01a.png)
+  ![](media/new/env.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-  ![](media/split01a.png)
+  ![](media/new/split.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
-To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
-![](media/n21.png) 
+![](media/new/zoom.png) 
  
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start**, **Restart**, or **Stop** your virtual machine as needed from the Resources tab. Your experience is in your hands!
 
-  ![](media/resoursesa.png)
+  ![](media/new/res.png)
 
 ## Let's Get Started with Azure Portal
  
-1. On your virtual machine, click on the **Azure Portal** icon as shown below:
+1. On your **LabVM**, click on the **Azure Portal** icon as shown below:
  
-    ![](media/azure-portal-edge.png)
+    ![](media/new/portal.png)
 
-1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
+1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following email/username, and click on **Next (2)**. 
 
-   * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
-   
-      ![](media/user-email.png "Enter Email")
+   * **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
      
-1. Now enter the following password and click on **Sign in**.
+      ![](media/new/email.png "Enter Password")
+
+1. Now enter the following password and click on **Sign in (2)**.
    
-   * **Password**: <inject key="AzureAdUserPassword"></inject>
+   * **Enter Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject> **(1)**
    
-      ![](media/user-pass.png "Enter Password")
-
-1. If you see the pop-up Action Required, click **Ask Later**.
-
-   ![](media/asklater.png)
-
-   >**NOTE:** Do not enable MFA, select **Ask Later**.
+      ![](media/new/pass.png "Enter Password")
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+   ![](media/new/stay.png)
 
-1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour.
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
+
+   ![](media/new/azure.png)
 
 ## Support Contact
  
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
 Learner Support Contacts:
+
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Now, click on **Next** from the lower right corner to move on to the next page.
+Now, click on **Next >>** from the lower right corner to move on to the next page.
 
 ![](media/nextprevious.png)
 
-### Happy Learning!!
+## Happy Learning!!
 
