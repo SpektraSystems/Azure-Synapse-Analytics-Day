@@ -1,4 +1,4 @@
-# Exercise 07: Power BI integration
+# Exercise 06: Power BI integration
 
 ### Estimated Duration: 90 Minutes
 
