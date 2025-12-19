@@ -1,4 +1,4 @@
-# Exercise 06: Data governance with Azure Purview
+# Exercise 05: Data governance with Azure Purview
 
 ### Estimated Duration: 60 Minutes
 
