@@ -44,16 +44,6 @@ In this task, you will browse your data lake using SQL On-demand.
    ![SQLPool01 is highlighted.](media/select-sql-pool11.png "SQLPool01")
 
    ![Resume sqlpool](./media/00-resume-sqlpool11.png "Resume")
-     
-5. Return to the resource group, then select the **asadataexplorer<inject key="uniqueId" enableCopy="false"/>** and **start** it. 
-
-   > **Note**: Please note starting of data explorer pool might take a few minutes, you don't have to wait for it to be started you can proceed to the next steps.
-
-   ![SQLPool01 is highlighted.](media/ex1dex11.png "SQLPool01")
-   
-   ![SQLPool01 is highlighted.](media/ex1dex21.png "SQLPool01")
-   
-   >**Note**: In case the data explorer is in a stopping state. Please continue with the lab as we need it in exercise 4. You can visit this page after a few minutes and start it.
 
 6. Return to the resource group, then select the **Synapse Analytics** workspace.
 
@@ -290,7 +280,7 @@ In this task, you explored data in the data lake using Azure Synapse Spark.
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-<validation step="76322c07-098f-41c8-8df7-b2f57cd86f97" />
+<validation step="d87b33c0-82d2-464b-98f3-40253790b3b8" />
 
 ## Summary
 
