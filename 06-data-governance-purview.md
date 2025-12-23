@@ -123,6 +123,8 @@ In this task, you will explore the results of scanning the Synapse Analytics wor
 
 3. Note the details of the source:
 
+    >**Note:** Scans may take **10–15 minutes** to appear. Please **refresh the page once** after that.
+
     - The number of discovered assets
     - The number of classified assets
     - The scans that have been performed so far on the source
