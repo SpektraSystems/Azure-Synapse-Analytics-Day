@@ -119,6 +119,10 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
     sales.limit(10000).write.mode(SaveMode.Append).sqlanalytics(tableName, Constants.INTERNAL)
     ```
     
+    > **Note** : If you are getting error, make sure to start **SQLPool1 (3)** following below screenshot.
+
+    ![](../media/E1T1S16.png)
+
     This code writes the data retrieved from Blob Storage into a staging table in Azure Synapse Analytics using the SQL Analytics connector. Using the connector simplifies connecting to Azure Synapse Analytics because it uses AAD pass-through. There is no need to create a password, identity, external table, or format sources, as it is all managed by the connector.
 
 18. As the cell runs, select the arrow icon below the cell to expand the details for the Spark job. After approximately 1-2 minutes, the execution of Cell 3 will complete. Once it completes move on the next step.
