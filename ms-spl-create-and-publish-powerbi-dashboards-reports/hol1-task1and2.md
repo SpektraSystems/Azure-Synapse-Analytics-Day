@@ -75,7 +75,9 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
     > This cell imports required libraries and sets the `adlsPath` variable, which defines the path used to connect to an Azure Data Lake Storage (ADLS) Gen2 account. Connecting to ADLS Gen2 from a notebook in Azure Synapse Analytics uses the power of Azure Active Directory (AAD) pass-through between compute and storage. The `%%spark` "magic" sets the cell language to Scala, which is required to use the `SparkSession` library.
 
-13. Hover over the area just below the cell output in the notebook, then select **+ Code** to add a new cell.
+    > **Note:** The first cell execution may take about 3-5 minutes. 
+
+13. Hover the mouse over the area just below the cell output in the notebook, then select **+ Code** to add a new cell.
 
     ![The add code button is highlighted.](../media/T1S13-0112.png "Add code")
 
@@ -98,7 +100,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
     ![The output from the execution the cell is displayed, with the result of the show(5) command shown first, followed by the output from the printSchema() command.](../media/ex02-notebook-ingest-cell-2-output.png "Cell output")
 
-16. Hover over the area just below the cell output in the notebook, then select **+ Code** to add a new cell.
+16. Hover the mouse over the area just below the cell output in the notebook, then select **+ Code** to add a new cell.
 
     ![The add code button is highlighted.](../media/T1S16-0112.png "Add code")
 
@@ -118,22 +120,17 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
     // Write the retrieved sales data into a staging table in Azure Synapse Analytics.
     sales.limit(10000).write.mode(SaveMode.Append).sqlanalytics(tableName, Constants.INTERNAL)
     ```
-    
+    This code writes the data retrieved from Blob Storage into a staging table in Azure Synapse Analytics using the SQL Analytics connector. Using the connector simplifies connecting to Azure Synapse Analytics because it uses AAD pass-through. There is no need to create a password, identity, external table, or format sources, as it is all managed by the connector.
+
     > **Note** : If you are getting error, make sure to start **SQLPool1 (3)** following below screenshot.
 
-    ![](../media/E1T1S16.png)
-
-    This code writes the data retrieved from Blob Storage into a staging table in Azure Synapse Analytics using the SQL Analytics connector. Using the connector simplifies connecting to Azure Synapse Analytics because it uses AAD pass-through. There is no need to create a password, identity, external table, or format sources, as it is all managed by the connector.
+    > ![](../media/E1T1S16.png)
 
 18. As the cell runs, select the arrow icon below the cell to expand the details for the Spark job. After approximately 1-2 minutes, the execution of Cell 3 will complete. Once it completes move on the next step.
 
     > This pane allows you to monitor the underlying Spark jobs, and observe the status of each. As you can see, the cell is split into two Spark jobs, and the progress of each can be observed. We will take a more in-depth look at monitoring Spark applications in Task 4 below.
 
     ![The Spark job status pane is displayed below the cell, with the progress of each Spark job visible.](../media/s29.png "Spark Job status")
-
-    > **Note** : Ensure that the status of SQLpool01 is in **Online** state.
-
-    ![](../media/s27.png)
 
 19. Close the notebook by selecting the **X (1)** from top then select **Keep session (2)** on Keep current session? pane and  select **Close + discard changes (3)**. Closing the notebook will ensure you free up the allocated resources on the Spark Pool.
      
@@ -151,11 +148,11 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
     ![The Databases folder is expanded, showing a list of databases within the Azure Synapse Analytics workspace. SQLPool01 is expanded and highlighted.](../media/T1S21-0112.png "Synapse Analytics Databases")
 
-22. Expand **Tables** and locate the table named `wwi_staging.Sale`.
+22. Expand **Tables (1)** and locate the table named `wwi_staging.Sale` **(2)**.
 
     > **Note**: If you do not see the table, select the Actions ellipsis next to Tables and then select **Refresh** from the fly-out menu.
 
-    ![The new wwi_staging.Sale table is displayed.](../media/data-staging-sales.png "New Sale table")
+    ![The new wwi_staging.Sale table is displayed.](../media/E1T1S21-1102.png "New Sale table")
 
 23. To the right of the `wwi_staging.Sale` table, select the Actions ellipsis.
 
@@ -292,7 +289,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
 19. The **Data preview** tab allows you to ingest a small subset of data and view it on the canvas. This functionality requires an active debug session, so for this workshop, a screenshot that displays the execution results for that tab is provided below.
 
-    > **NOTE :** This step cannot be performed in the lab environment.
+    > **NOTE :** This step cannot be performed in the lab environment. You can refere to the screenshot below to see how the data preview tab works. In a typical scenario, you would enable debug mode and then select the Data preview tab to see a sample of the data being ingested from the data source. This is useful for validating that the correct data is being read and that the schema is correct. In the screenshot below, you can see a sample of the zip code data being ingested from the `PostalCodes` dataset.
 
     > The `Zip` column is highlighted on the Data preview tab to show a sample of the values contained within that field. Below, you will filter the list of zip codes down to those that appear in the customer dataset.
 
@@ -382,11 +379,11 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
     ![The OK button is highlighted in the Pipeline run dialog.](../media/ex02-orchestrate-pipelines-trigger-run.png "Pipeline run trigger")
 
-40. To monitor the pipeline run, move on to the next task.
+40. To monitor the pipeline run, move on to the next exercise.
 
 ## Summary 
 
-In this exercise, we explored and modified a Synapse notebook to understand data transformations and analytical steps. We also updated and executed a Synapse pipeline containing a Data Flow to validate end-to-end processing. This provided a hands-on foundation for building and orchestrating data workflows in Synapse.
+In this exercise, you explored a Spark notebook that writes data from Azure Data Lake Storage into Azure Synapse Analytics using the SQL Analytics connector. You then explored a pipeline that contains a Data Flow, reviewed the activities within it, and made modifications to the activities and data flow. Finally, you published the pipeline and triggered a run.
 
 Now, click on **Next** from the lower right corner to move on to the next tasks.
 

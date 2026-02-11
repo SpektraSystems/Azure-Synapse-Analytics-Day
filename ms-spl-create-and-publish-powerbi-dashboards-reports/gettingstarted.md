@@ -96,6 +96,10 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
  
    ![](../media/s10.png)
 
+   >**Note:** If you encounter a pop up for Extension added in Microsoft Edge browser, please click on either of the options to continue. 
+
+   >   ![](../media/note-1102.png)
+
 1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
 
    * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
@@ -111,8 +115,6 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 1. If you see the pop-up **Stay Signed in?**, click **Yes**.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
-
-1. Use **Next** button from lower right corner to move on to the next page.
 
 ## Support Contact
  

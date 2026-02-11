@@ -59,8 +59,6 @@ After you finish building and debugging your data flow and its associated pipeli
 11. When the pipeline execution completes, all activity runs will reflect a status of Succeeded.
 
     ![A screenshot of the activity runs for the Exercise 2 - Enrich Data pipeline is displayed with all activities showing a status of Succeeded.](../media/ex02-monitor-ex2-enrich-data-activity-runs-succeeded.1.png "Pipeline run monitoring")
-    
-    >It takes around 5 minutes for the pipeline to have a status of Succeeded.
 
 12. When the **Enrich Customer Data** activity has a status of **Complete**, hover your mouse cursor over the **Enrich Customer Data** activity and select the **Details** icon that appears.
 
@@ -108,9 +106,9 @@ Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipe
 
     ![](../media/T3.1S1-0112.png)
 
-1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **(1)**. Select all the files and right click to select **New SQL script > Select TOP 100 rows (3)**.
+1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **(1)**. Select all the files except the text file and right click to select **New SQL script > Select TOP 100 rows (3)**.
 
-   >NOTE: Select all the files except the text file.
+   >NOTE: Select all the files except the text file. You can use **Ctrl + Mouse right click** to select multiple files.
 
    ![dev > bronze > sentiment folder in the Workspace data lake account is shown. All files are selected. Right click context menu is open. New SQL script > Select TOP 100 rows command is highlighted.](../media/T3.1S2-0112.png "Sentiment Folder")
 
