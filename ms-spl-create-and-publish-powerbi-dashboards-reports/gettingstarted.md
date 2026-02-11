@@ -34,7 +34,7 @@ This lab follows a modern data warehouse architecture using Azure Synapse Analyt
 
 ## Architechture Diagram
 
-![](../media/s2.PNG)
+![](../media/arch-diag-1102.png)
 
 ## Explanation of Components
 
