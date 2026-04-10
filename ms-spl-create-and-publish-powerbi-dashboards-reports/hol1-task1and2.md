@@ -353,7 +353,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
 32. Before running the pipeline there is one more change we need to make. As mentioned above, the data flow depends on the data written by the copy activity, so you will add a dependency between the two activities.
 
-33. In the data flow canvas graph, select the green box on the right-hand side of the `Import Customer dimension` Copy data activity and drag the resulting arrow up onto the `Enrich Customer Data` Data Flow activity.
+33. In the data flow canvas graph, select the green On Success box on the right-hand side of the `Import Customer dimension` Copy data activity and drag the resulting arrow up onto the `Enrich Customer Data` Data Flow activity.
 
     ![The green box on the right-hand side of the Copy data activity is highlighted, and the arrow has been dragged onto the Mapping Data Flow.](../media/ex02-orchestrate-pipelines-create-dependency.png "Data pipeline canvas")
 

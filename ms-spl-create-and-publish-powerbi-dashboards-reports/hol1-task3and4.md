@@ -10,9 +10,11 @@ This exercise focuses on operational monitoring in Synapse, where you review pip
 
 In this exercise, you will perform the following tasks:
 
-  - Task 1 - Monitor pipelines
+  - Task 1: Monitor pipelines
+  
     - Task 1.1: Bonus: Inspect Sentiment Analysis Results
-  - Task 2 - Monitor Spark applications
+    
+  - Task 2: Monitor Spark applications
 
 ### Task 1 - Monitor pipelines
 
