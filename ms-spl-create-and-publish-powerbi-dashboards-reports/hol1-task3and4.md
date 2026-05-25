@@ -2,6 +2,10 @@
 
 ### Estimated Duration: 2 Hours
 
+## Scenario
+
+Contoso’s data engineering team uses Azure Synapse Analytics to monitor enterprise ETL workflows and Spark workloads. In this exercise, you will review pipeline executions, inspect sentiment analysis results, and monitor Spark application performance and logs.
+
 ## Overview
 
 This exercise focuses on operational monitoring in Synapse, where you review pipeline runs, debug failures, and inspect sentiment analysis output as a bonus. You also monitor Spark application execution to understand performance, logs, and resource utilization across the cluster.

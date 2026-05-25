@@ -2,6 +2,10 @@
 
 ### Estimated Duration: 2 Hours
 
+## Scenario
+
+Contoso’s data engineering team uses Azure Synapse Analytics to process and transform enterprise data for reporting and analytics. In this exercise, you will explore and modify Synapse Notebooks and Pipelines to understand how automated ETL workflows are developed and executed.
+
 ## Overview
 
 In this exercise, you explore and modify a Synapse notebook to understand how data is loaded, transformed, and analyzed. You then work with a Synapse Pipeline that includes a Data Flow, modify its activities, and execute it to validate the end-to-end data transformation process.
