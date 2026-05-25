@@ -27,6 +27,8 @@ This lab provides practical, hands‑on experience building a modern data wareho
 
 Participants should have the following prerequisites:
 
+- **An active Microsoft Azure subscription** to deploy and manage Azure resources.
+- **An Azure Entra ID user account** with sufficient permissions to create and manage resources within the Azure subscription.
 - **Basic familiarity with Azure services**: Understanding of Azure Synapse Analytics, Data Lake Storage, and Azure Monitor.
 - **Fundamental knowledge of data processing**: Awareness of ETL (Extract, Transform, Load) concepts and structured data handling.
 - **No prior experience with Synapse Pipelines required**: This lab introduces low-code and code-based approaches for data processing.
@@ -54,11 +56,11 @@ The architecture for this lab involves several key components:
   
 ## Getting Started with Lab
 
-We've prepared an interactive environment for you to explore Synapse Pipelines, Notebooks, Data Flows, and Spark monitoring. 
+Welcome to your SQL Datawarehouse with Synapse! We've prepared an interactive environment for you to explore Synapse Pipelines, Notebooks, Data Flows, and Spark monitoring. 
 
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
    ![](../media/guide-0312.png) 
 
@@ -90,7 +92,7 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
 
 ## Lab Guide Zoom In/Zoom Out
  
-To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕** icon located next to the timer in the lab environment.
 
    ![](../media/s6.png)
 
