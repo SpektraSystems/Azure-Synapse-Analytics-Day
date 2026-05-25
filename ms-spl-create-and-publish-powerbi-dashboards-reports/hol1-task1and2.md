@@ -2,6 +2,10 @@
 
 ### Estimated Duration: 2 Hours
 
+## Scenario
+
+Contoso’s data engineering team uses Azure Synapse Analytics to process and transform enterprise data for reporting and analytics. In this exercise, you will explore and modify Synapse Notebooks and Pipelines to understand how automated ETL workflows are developed and executed.
+
 ## Overview
 
 In this exercise, you explore and modify a Synapse notebook to understand how data is loaded, transformed, and analyzed. You then work with a Synapse Pipeline that includes a Data Flow, modify its activities, and execute it to validate the end-to-end data transformation process.
@@ -205,7 +209,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
    ![ForEachComments ForEach activity is selected. Settings tab is shown. Items property is highlighted.](../media/T2S4-0112.png "ForEach Loop")
 
-5. Select **Copy data** activity named `Sentiment Analysis` **(1)** and switch to the **Source (2)** tab. The Copy Data activity's Source dataset is set to a REST resource **(3)** backed by Azure Cognitive Services. A POST **(4)** HTTP request will be made to the Azure Cognitive Services endpoint carrying a request body **(5)** that includes the text from the current iteration that will be analyzed for sentiments.
+5. Select **Copy data** activity named `Sentiment Analysis` **(1)** and switch to the **Source (2)** tab. The Copy Data activity's Source dataset is set to a REST resource **(3)** backed by Azure Cognitive Services. A POST HTTP request **(4)** will be made to the Azure Cognitive Services endpoint carrying a request body **(5)** that includes the text from the current iteration that will be analyzed for sentiments.
 
    ![Copy data activity named Sentiment Analysis is selected. Source tab is open. Source dataset is set to a REST Data Source. Request body and method are highlighted.](../media/T2S5-0112.png "Copy Data REST Source")
 

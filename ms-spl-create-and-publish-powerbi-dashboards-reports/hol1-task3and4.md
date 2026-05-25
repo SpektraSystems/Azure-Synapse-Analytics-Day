@@ -2,6 +2,10 @@
 
 ### Estimated Duration: 2 Hours
 
+## Scenario
+
+Contoso’s data engineering team uses Azure Synapse Analytics to monitor enterprise ETL workflows and Spark workloads. In this exercise, you will review pipeline executions, inspect sentiment analysis results, and monitor Spark application performance and logs.
+
 ## Overview
 
 This exercise focuses on operational monitoring in Synapse, where you review pipeline runs, debug failures, and inspect sentiment analysis output as a bonus. You also monitor Spark application execution to understand performance, logs, and resource utilization across the cluster.
@@ -104,7 +108,7 @@ After you finish building and debugging your data flow and its associated pipeli
 
 Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipeline? Once your pipeline's execution is complete we have some sentiment data we can look into.
 
-1. Go to the **Data ()** Hub, under **Linked (2)** data expand **Azure Data Lake Storage Gen2 (3)**.
+1. Go to the **Data (1)** Hub, under **Linked (2)** data expand **Azure Data Lake Storage Gen2 (3)**.
 
     ![](../media/T3.1S1-0112.png)
 
@@ -140,7 +144,7 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
    ![Apache Spark applications is selected and highlighted under the Activities section of the monitor resource list.](../media/ex2tsk4stp2.png "Synapse Analytics Monitor")
 
-3. On the Apache Spark applications page, select the **Local time** value and observe the available options for limiting the time range for Spark applications that are displayed in the list. In this case, you are looking at the current run, so ensure **Last 24 hours** is selected and then select **OK**.
+3. On the Apache Spark applications page, select the **Local time** value and observe the available options for limiting the time range for Spark applications that are displayed in the list. In this case, you are looking at the current run, so ensure **Last 24 hours (1)** is selected and then select **OK (2)**.
 
    ![Last 24 hours is selected and highlighted in the Time range list.](../media/T4S3-0112.png "Synapse Analytics Monitor")
 

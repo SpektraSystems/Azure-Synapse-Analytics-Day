@@ -2,6 +2,10 @@
 
 ### Estimated Duration: 4 Hours
 
+## Lab Scenario
+
+Contoso is modernizing its analytics platform to centralize sales, customer, and operational data coming from multiple business systems and external APIs. The data engineering team uses Microsoft Azure Synapse Analytics to ingest raw data into Azure Data Lake Storage Gen2, transform it using Synapse Notebooks and Data Flows, and load curated datasets into a dedicated SQL pool for enterprise reporting. To ensure reliable daily operations, the team monitors pipeline executions, Spark application performance, and ETL task status through Synapse Studio and Azure Monitor. This lab simulates Contoso’s end-to-end data warehouse workflow, helping users understand how modern organizations build and manage scalable analytics solutions in real-world environments.
+
 ## Overview
 
 In this lab, you will build and execute a pipeline with parallel activities to ingest data into Azure Data Lake, perform transformations, and load the results into an Azure Synapse dedicated SQL pool. You will also validate and monitor pipeline execution and task status throughout the workflow.
