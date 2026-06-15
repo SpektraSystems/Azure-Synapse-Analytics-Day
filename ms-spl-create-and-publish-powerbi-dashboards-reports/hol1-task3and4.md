@@ -32,7 +32,7 @@ After you finish building and debugging your data flow and its associated pipeli
 
    ![Pipeline runs is selected and highlighted under the Orchestration section of the monitor resource list.](../media/T3S2-0112.png "Synapse Analytics Monitor")
 
-3. Select the `Exercise 2 - Enrich Data` pipeline the list. This will have a status of `In progress`.
+3. Select the `Exercise 2 - Enrich Data` pipeline from the list. This will have a status of `In progress`.
 
    ![The first "Exercise 2 - Enrich Data" item in the list of pipeline runs is highlighted.](../media/s33.png "Pipeline run list")
 
@@ -112,9 +112,9 @@ Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipe
 
     ![](../media/T3.1S1-0112.png)
 
-1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **(1)**. Select all the files except the text file and right click to select **New SQL script > Select TOP 100 rows (3)**.
+1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **asaworkspace (1)**. Select all the files except the **test.txt** file and right click to select **New SQL script > Select TOP 100 rows (3)**.
 
-   >NOTE: Select all the files except the text file. You can use **Ctrl + Mouse right click** to select multiple files.
+   >NOTE: Select all the files except the **test.txt** file. You can use **Ctrl + Mouse right click** to select multiple files.
 
    ![dev > bronze > sentiment folder in the Workspace data lake account is shown. All files are selected. Right click context menu is open. New SQL script > Select TOP 100 rows command is highlighted.](../media/T3.1S2-0112.png "Sentiment Folder")
 
@@ -125,7 +125,6 @@ Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipe
         jsonContent,
         JSON_VALUE (jsonContent, '$.documents[0].sentiment') AS Sentiment,
         JSON_VALUE (jsonContent, '$.documents[0].id') AS CustomerId
-    FROM
     ```
 
     ![A JSON SQL Query is shown. Sentiment Analysis results are listed.](../media/T3.1S3-0112.png "JSON Query for Sentiments")
@@ -144,9 +143,9 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
    ![Apache Spark applications is selected and highlighted under the Activities section of the monitor resource list.](../media/ex2tsk4stp2.png "Synapse Analytics Monitor")
 
-3. On the Apache Spark applications page, select the **Local time** value and observe the available options for limiting the time range for Spark applications that are displayed in the list. In this case, you are looking at the current run, so ensure **Last 24 hours (1)** is selected and then select **OK (2)**.
+3. On the Apache Spark applications page, select the **Local time (1)** value and observe the available options for limiting the time range for Spark applications that are displayed in the list. In this case, you are looking at the current run, so ensure **Last 24 hours (2)** is selected and then select your **time zone (3)** then click **OK (4)**.
 
-   ![Last 24 hours is selected and highlighted in the Time range list.](../media/T4S3-0112.png "Synapse Analytics Monitor")
+   ![Last 24 hours is selected and highlighted in the Time range list.](../media/apache-spark-app-time.png "Synapse Analytics Monitor")
 
 4. From the list of Spark applications, select the first job, which should have a status of `In progress` or `Succeeded`.
 
@@ -166,7 +165,7 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
    ![The Spark application logs are displayed.](../media/T4S6-0112.png "Logs")
    
-7. To look closer at any individual job, you can use the **Job IDs** drop-down to select the job number.
+7. Back to **Diagnostics** To look closer at any individual job, you can use the **Job IDs** drop-down in canvas graph pane to select the job number.
 
    ![Job 2 is highlighted in the Job IDs drop-down list.](../media/ex02-monitor-activities-spark-applications-all-job-ids-2.1.png "Synapse Analytics Monitor")
 
