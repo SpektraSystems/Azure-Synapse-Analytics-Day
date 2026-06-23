@@ -31,7 +31,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 3. Select **SQLPool01 (1)** and **Resume (2)** it before starting the exercise. Select **Yes** on the pop-up.
 
-   ![SQLPool01 is highlighted.](../media/T1S3.1-0312.png "SQLPool01")
+   ![SQLPool01 is highlighted.](../media/T1S3.1-0312-1.png "SQLPool01")
 
    ![Resume sqlpool](../media/T1S3.2-0112.png "Resume")
 
@@ -41,11 +41,11 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
    ![](../media/s17.png)
 
-6. Navigate to **asaworkspace<inject key="Deployment ID" enableCopy="false"/>** by selecting it.
+6. Navigate to **asaworkspace<inject key="Unique ID" enableCopy="false"/>** by selecting it.
 
    ![](../media/s18.png)
 
-7. On the **Overview (1)** page click on **Open (2)** under getting started for Open Syanpse Studio.  
+7. On the **Overview (1)** page click on **Open (2)** under Getting started to Open Synapse Studio.  
 
    ![](../media/s19.png)
 
@@ -57,7 +57,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
    ![The new notebook menu item is highlighted.](../media/T1S9-0112.png "New notebook")
 
-10. If not already attached the sparkPool01, click the **three dots (1)** icon next to the notebook header,from the Attach to **drop-down list (2)**, and then choose **SparkPool01 (3)**.
+10. If not already attached the sparkPool01, click the **three dots (1)** icon next to the notebook header,from the **Attach to (2)** drop-down list, choose **SparkPool01 (3)**.
 
     ![The Spark pool is selected in the Attach to drop-down.](../media/attach-spark-pool.png "Add code")
 
@@ -198,7 +198,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
    ![Integrate hub.](../media/integrate-hub.png "Integrate hub")
 
-2. In the Integrate menu, expand **Pipelines (1)**, then select **Exercise 2 - Enrich Data (3)** Opens a **pipeline canvas (3)** on right side.
+2. In the Integrate menu, expand **Pipelines (1)**, then select **Exercise 2 - Enrich Data (2)**.It opens a **pipeline canvas (3)** on right side.
 
    ![The Enrich Data pipeline is selected.](../media/integrate.png "Pipelines")
 
@@ -219,7 +219,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
    ![The Settings tab of the ReadCOmments Lookup Activity is selected. Source dataset is highlighted.](../media/T2S3-0112.png "Read Comments")
 
-   >**Note**: If you don't find the details of selected item from canvas graph, then drag the pane upward to reveal the full **General**,**Settings** and other options.
+   >**Note**: If you don't find the details of selected item from canvas graph, then drag the pane upward to reveal the full **General**, **Settings** and other options.
 
    > ![](../media/drag-upwards.png)
    
@@ -231,7 +231,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
    ![Copy data activity named Sentiment Analysis is selected. Source tab is open. Source dataset is set to a REST Data Source. Request body and method are highlighted.](../media/T2S5-0112.png "Copy Data REST Source")
 
-6. Switch to the **Sink (1)** tab. Here, the sink dataset is set to a JSON file location in the data lake. Once the Copy data activity gets the result of the sentiment analysis from the remote REST resource endpoint, the result will be saved as separate JSON files into the Sink dataset **(2)**. The files will include a complete sentiment analysis for the customer comment that can be queried and analyzed further. Select **Exercise 2 - Enrich Data (3)** link to go back to the main pipeline canvas.
+6. Switch to the **Sink (1)** tab. Here, the sink dataset is set to a JSON file location in the data lake. Once the Copy data activity gets the result of the sentiment analysis from the remote REST resource endpoint, the result will be saved as separate JSON files into the `Sink dataset` **(2)**. The files will include a complete sentiment analysis for the customer comment that can be queried and analyzed further. Select **Exercise 2 - Enrich Data (3)** link to go back to the main pipeline canvas.
 
    ![Copy data activity named Sentiment Analysis is selected. Sink tab is open. Sink dataset is set to a JSON Data Source. ](../media/T2S6-0112.png "Sentiment Sink")
 
@@ -239,9 +239,9 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
    > Below the graph is a series of tabs, each providing additional details about the selected activity. The **General** tab displays the name and description assigned to the activity and a few other properties.
 
-8. Select the **Source (2)** tab. The source defines the location from which data will be copied by the activity. The **Source dataset** field is a pointer to the location of the source data.
+8. Select the **Source (2)** tab. The source defines the location from which data will be copied by the activity. The `Source dataset` **(3)** field is a pointer to the location of the source data.
 
-   > Take a moment to review the various properties available on the Source tab. Data is being retrieved from files stored in a data lake.
+   > Take a moment to review the various properties available on the **Source** tab. Data is being retrieved from files stored in a data lake.
 
    ![The Source tab for the Copy data activity is selected and highlighted.](../media/T2S8-0112.png "Pipeline canvas property tabs")
 
@@ -255,13 +255,13 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
     ![The Mappings tab for the Copy data activity is highlighted and displayed.](../media/mappings.png "Pipeline canvas property tabs")
 
-11. Finally, select the **Settings (1)** tab. Check **Enable staging (2)** and expand **Staging settings (3)**. Search and select **asadatalake01 (4)** under `Staging account linked service`, then type **staging (5)** into `Storage Path`. Finally, check **Enable Compression (6)**.
+11. Finally, select the **Settings (1)** tab. Check **Enable staging (2)** and expand **Staging settings (3)**. Search and select **asadatalake01 (4)** under `Staging account linked service`, then type **staging (5)** into `Storage Path`. Finally, check **Enable compression (6)**.
 
     ![The staging settings are configured as described.](../media/T2S11-0112.png "Settings")
 
     > Since we are using PolyBase with dynamic file properties, owing to the UniqueId values, we need to [enable staging](https://docs.microsoft.com/azure/data-factory/connector-azure-sql-data-warehouse#staged-copy-by-using-polybase). In cases of large file movement activities, configuring a staging path for the copy activity can improve performance.
 
-12. Switch to the **Data Flow (1)** activity by selecting the `Enrich Customer Data` Data Flow activity on the pipeline design canvas, then select the **Settings (2)** tab.
+12. Switch to the **Data Flow (1)** activity by selecting the `Enrich Customer Data` on the pipeline design canvas, then select the **Settings (2)** tab.
 
     ![The data flow activity settings are displayed.](../media/T2S12-0112.png "Settings")
 
@@ -283,7 +283,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
 14. Take a minute to look at the options available on the various tabs in the configuration panel. You will notice the properties here define how the data flow operates within the pipeline.
 
-15. Now, let us take a look at the definition of the data flow the Data Flow activity references. **Double-click** the `Enrich Customer Data` Data Flow activity on the pipeline canvas to open the underlying Data Flow in a new tab.
+15. Now, let's examine the definition of the data flow referenced by the Data flow activity. On the pipeline canvas, **double-click** the `Enrich Customer Data` Data Flow activity to open the associated Data Flow in a new tab.
 
     ![The EnrichCustomerData Data Flow canvas is displayed.](../media/T2S15-0112.png "Enrich Customer Data")
 
@@ -317,7 +317,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
     ![The Data preview tab is highlighted and selected. The Zip column is highlighted on the Data preview tab.](../media/ex02-orchestrate-data-flow-sources-postal-codes-data-preview.1.png "Data flow canvas")
 
-20. Before looking at the `PostalCodeFilter`, quickly select the `+` button to the right of the `PostalCodes` data source to display a list of available transformations.
+20. Before looking at the `PostalCodeFilter`, quickly select the `+` button to the right of the `PostalCodes` data source to display a list of available transformations **(2)**.
 
     > Take a moment to browse the list of transformations available in Data Flows. From this list, you get an idea of the types of transformations that are possible using data flows. Transformations are broken down into three categories, **multiple inputs/outputs**, **schema modifiers**, and **row modifiers**. You can learn about each transformation in the docs by reading the [Data flow transformation overview](https://docs.microsoft.com/azure/data-factory/data-flow-transformation-overview) article.
 
@@ -327,19 +327,19 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
     ![The PostalCodeFilter transformation is highlighted on the data flow canvas graph.](../media/T2S21-0112.png "Data flow canvas")
 
-22. In the **Filter settings (1)** tab of the configuration panel, click anywhere inside the **Filter on (2)** box then Double click on **Open expression builder (3)** link.
+22. In the **Filter settings (1)** tab of the configuration panel, click anywhere inside the **Filter on (2)** box then **Double click** on **Open expression builder (3)** link.
 
     ![The Filter on box is highlighted in the configuration panel for the PostalCodeFilter transformation.](../media/T2S22-0112.png "Data flow canvas")
 
 23. This will open the Dataflow expression builder.
 
-    > In data flows, many transformation properties are entered as expressions. These expressions are composed of column values, parameters, functions, operators, and literals that evaluate to a Spark data type at run time. To learn more, visit the [Build expressions in data flow](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-expression-builder) page in the documentation.
-
-    ![](../media/s32.png)
-
 24. The filter currently applied ensures all zip codes are between 90000 and 98000. Observe the different expression elements and values in the area below the expression box that help you create and modify filters and other expressions.
 
 25. Select **Cancel** to close the visual expression builder.
+
+    > In data flows, many transformation properties are entered as expressions. These expressions are composed of column values, parameters, functions, operators, and literals that evaluate to a Spark data type at run time. To learn more, visit the [Build expressions in data flow](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-expression-builder) page in the documentation.
+
+    ![](../media/s32.png)
 
 26. Select the **DimCustomer (1)** data source on the data flow canvas graph and check the **Projections (2)** and other tabs.
 
@@ -408,8 +408,6 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 ## Summary 
 
 In this exercise, you explored a Spark notebook that writes data from Azure Data Lake Storage into Azure Synapse Analytics using the SQL Analytics connector. You then explored a pipeline that contains a Data Flow, reviewed the activities within it, and made modifications to the activities and data flow. Finally, you published the pipeline and triggered a run. 
-
-### Happy Learning!
 
 Now, click on **Next** from the lower right corner to move on to the next tasks.
 

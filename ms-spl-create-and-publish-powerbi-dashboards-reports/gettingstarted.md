@@ -4,15 +4,15 @@
 
 ## Lab Scenario
 
-Contoso is modernizing its analytics platform to centralize sales, customer, and operational data coming from multiple business systems and external APIs. The data engineering team uses Microsoft Azure Synapse Analytics to ingest raw data into Azure Data Lake Storage Gen2, transform it using Synapse Notebooks and Data Flows, and load curated datasets into a dedicated SQL pool for enterprise reporting. To ensure reliable daily operations, the team monitors pipeline executions, Spark application performance, and ETL task status through Synapse Studio and Azure Monitor. This lab simulates Contoso’s end-to-end data warehouse workflow, helping users understand how modern organizations build and manage scalable analytics solutions in real-world environments.
+Contoso is modernizing its analytics platform to centralize **sales, customer, and operational data** coming from multiple business systems and external APIs. The data engineering team uses **Microsoft Azure Synapse Analytics** to ingest raw data into **Azure Data Lake Storage Gen2**, transform it using **Synapse Notebooks and Data Flows**, and load curated datasets into a **dedicated SQL pool** for enterprise reporting. To ensure reliable daily operations, the team monitors **pipeline executions**, Spark application performance, and ETL task status through Synapse Studio and Azure Monitor. This lab simulates Contoso’s **end-to-end data warehouse workflow**, helping users understand how modern organizations build and manage scalable analytics solutions in real-world environments.
 
 ## Overview
 
-In this lab, you will build and execute a pipeline with parallel activities to ingest data into Azure Data Lake, perform transformations, and load the results into an Azure Synapse dedicated SQL pool. You will also validate and monitor pipeline execution and task status throughout the workflow.
+In this lab, you will build and execute a **pipeline with parallel activities** to ingest data into **Azure Data Lake**, perform transformations, and load the results into an **Azure Synapse dedicated SQL pool**. You will also validate and monitor **pipeline execution and task status** throughout the workflow.
 
 Reliable analytics requires systematic movement and processing of data. After exploring and profiling datasets, the next step is to route them to the appropriate processing and storage locations while performing essential data-wrangling tasks such as extraction, parsing, joins, normalization, augmentation, cleansing, consolidation, and filtering.
 
-Azure Synapse Analytics delivers two complementary capabilities for these requirements: Data Flows for scalable, low-code transformations, and Pipelines for orchestration and execution. Together they support the full lifecycle of data integration—design, development, scheduling, execution, and monitoring.
+**Azure Synapse Analytics** delivers two complementary capabilities for these requirements: **Data Flows** for scalable, low-code transformations, and **Pipelines** for orchestration and execution. Together they support the full lifecycle of data integration **design, development, scheduling, execution, and monitoring**.
 
 ## Objectives
 
@@ -40,7 +40,7 @@ This lab follows a modern data warehouse architecture using Azure Synapse Analyt
 
 ## Architechture Diagram
 
-![](../media/arch-diag-1102.png)
+![](../media/Arch1.png)
 
 ## Explanation of Components
 
@@ -64,7 +64,8 @@ Once you're ready to dive in, your virtual machine and **Guide** will be right a
 
    ![](../media/guide-0312.png) 
 
-  >**Note:** After launching the lab if you see a **Send diagnostic data to Microsoft** window, click on Accept to continue. 
+  >**Note:** After launching the lab if you see a **Send diagnostic data to Microsoft** window, click on **Accept** to continue. 
+   ![](../media/win1.png) 
 
 ## Virtual Machine & Lab Guide
 
