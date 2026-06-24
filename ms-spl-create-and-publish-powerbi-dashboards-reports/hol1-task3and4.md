@@ -22,7 +22,7 @@ In this exercise, you will perform the following tasks:
 
 ### Task 1 - Monitor pipelines
 
-After you finish building and debugging your data flow and its associated pipeline, you will want to be able to monitor the execution of the pipeline and all of the activities contained within it, including the Data Flow activity. In this task, you review the [pipeline monitoring functionality in Azure Synapse Analytics](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-monitoring) using the pipeline run you initiated at the end of the previous task.
+After you finish building and debugging your data flow and its associated pipeline, you will be able to monitor the execution of the pipeline and all of the activities contained within it, including the Data Flow activity. In this task, you review the [pipeline monitoring functionality in Azure Synapse Analytics](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-monitoring) using the pipeline run you initiated at the end of the previous task.
 
 1. In Synapse Analytics Studio, select **Monitor** from the left-hand menu.
 
@@ -112,7 +112,7 @@ Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipe
 
     ![](../media/T3.1S1-0112.png)
 
-1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **asaworkspace (1)**. Select all the files except the **test.txt** file and right click to select **New SQL script > Select TOP 100 rows (3)**.
+1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **asaworkspace<inject key="Unique ID" enableCopy="false"/>**. Select all the files except the **test.txt** file and right click to select **New SQL script > Select TOP 100 rows (3)**.
 
    >NOTE: Select all the files except the **test.txt** file. You can use **Ctrl + Mouse right click** to select multiple files.
 
