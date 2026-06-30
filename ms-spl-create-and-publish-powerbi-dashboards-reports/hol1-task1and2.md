@@ -134,7 +134,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
     ```
     This code writes the data retrieved from Blob Storage into a staging table in Azure Synapse Analytics using the SQL Analytics connector. Using the connector simplifies connecting to Azure Synapse Analytics because it uses AAD pass-through. There is no need to create a password, identity, external table, or format sources, as it is all managed by the connector.
 
-    > **Note** : If you are getting error, make sure to start **SQLPool1 (3)** following below screenshot.
+    > **Note** : If you are getting error, go to **Manage(1)** page and select **SQL pools (2)**. Make sure to start **SQLPool1 (3)** following below screenshot.
 
     > ![](../media/E1T1S16.png)
 
@@ -317,7 +317,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
     ![The Data preview tab is highlighted and selected. The Zip column is highlighted on the Data preview tab.](../media/ex02-orchestrate-data-flow-sources-postal-codes-data-preview.1.png "Data flow canvas")
 
-20. Before looking at the `PostalCodeFilter`, quickly select the `+` button to the right of the `PostalCodes` data source to display a list of available transformations **(2)**.
+20. Before looking at the `PostalCodeFilter`, quickly select the `+` **(1)** button to the right of the `PostalCodes` data source to display a list of available transformations **(2)**.
 
     > Take a moment to browse the list of transformations available in Data Flows. From this list, you get an idea of the types of transformations that are possible using data flows. Transformations are broken down into three categories, **multiple inputs/outputs**, **schema modifiers**, and **row modifiers**. You can learn about each transformation in the docs by reading the [Data flow transformation overview](https://docs.microsoft.com/azure/data-factory/data-flow-transformation-overview) article.
 

@@ -112,7 +112,7 @@ Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipe
 
     ![](../media/T3.1S1-0112.png)
 
-1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **asaworkspace<inject key="Unique ID" enableCopy="false"/>**. Select all the files except the **test.txt** file and right click to select **New SQL script > Select TOP 100 rows (3)**.
+1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **asaworkspace<inject key="Unique ID" enableCopy="false"/> (1)**. Select all the files except the **test.txt** file and right click to select **New SQL script (3) > Select TOP 100 rows (4)**.
 
    >NOTE: Select all the files except the **test.txt** file. You can use **Ctrl + Mouse right click** to select multiple files.
 
