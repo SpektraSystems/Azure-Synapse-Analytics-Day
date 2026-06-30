@@ -165,7 +165,7 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
    ![The Spark application logs are displayed.](../media/T4S6-0112.png "Logs")
    
-7. Back to **Diagnostics** To look closer at any individual job, you can use the **Job IDs** drop-down in canvas graph pane to select the job number.
+7. Back to **Diagnostics** to look closer at any individual job, you can use the **Job IDs** drop-down in canvas graph pane to select the job number.
 
    ![Job 2 is highlighted in the Job IDs drop-down list.](../media/ex02-monitor-activities-spark-applications-all-job-ids-2.1.png "Synapse Analytics Monitor")
 
@@ -185,7 +185,7 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
 11. Running a Playback allows you to observe the time required to complete each job, as well as review the rows read or written as the job progresses.
 
-    ![A screenshot of an in-progress playback is displayed. The playback is at 8s into the Spark application run, and Job 2 is showing progress.](../media/ex02-monitor-activities-spark-applications-playback-progress.1.png "Synapse Analytics Monitor")
+    ![A screenshot of an in-progress playback is displayed. The playback is at 8s into the Spark application run and Job 2 is showing progress.](../media/ex02-monitor-activities-spark-applications-playback-progress.1.png "Synapse Analytics Monitor")
 
 12. You can also perform playback on an individual job. Returning to a view of only Job 2 **(1)**, the **Playback (2)** button shows the rows written at this job, and the progress of reads and writes.
 

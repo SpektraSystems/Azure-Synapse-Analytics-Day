@@ -104,7 +104,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
     sales.printSchema()
     ```
 
-    This code loads data from CSV files in the data lake into a DataSet. Note the `option` parameters in the `read` command. These options specify the settings to use when reading the CSV files. The options tell Spark that the first row of each file containers the column headers, the separator in the files in the `|` character, and that we want Spark to infer the schema of the files based on an analysis of the contents of each column. Finally, we display the first five records of the data retrieved and print the inferred schema to the screen.
+    This code loads data from CSV files in the data lake into a DataSet. Note the `option` parameters in the `read` command. These options specify the settings to use when reading the CSV files. The options tell Spark that the first row of each file contains the column headers, the separator in the files is the `|` character, and that we want Spark to infer the schema of the files based on an analysis of the contents of each column. Finally, we display the first five records of the data retrieved and print the inferred schema to the screen.
 
 15. When the cell finishes running, take a moment to review the associated output.
 
@@ -138,7 +138,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
     > ![](../media/E1T1S16.png)
 
-18. As the cell runs, select the arrow icon below the cell to expand the details for the Spark job. After approximately 1-2 minutes, the execution of Cell 3 will complete. Once it completes move on the next step.
+18. As the cell runs, select the arrow icon below the cell to expand the details for the Spark job. After approximately 1-2 minutes, the execution of Cell 3 will complete. Once it completes move to the next step.
 
     > This pane allows you to monitor the underlying Spark jobs, and observe the status of each. As you can see, the cell is split into two Spark jobs, and the progress of each can be observed. We will take a more in-depth look at monitoring Spark applications in Task 4 below.
 
@@ -311,7 +311,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
 19. The **Data preview** tab allows you to ingest a small subset of data and view it on the canvas. This functionality requires an active debug session, so for this workshop, a screenshot that displays the execution results for that tab is provided below.
 
-    > **NOTE :** This step cannot be performed in the lab environment. You can refere to the screenshot below to see how the data preview tab works. In a typical scenario, you would enable debug mode and then select the Data preview tab to see a sample of the data being ingested from the data source. This is useful for validating that the correct data is being read and that the schema is correct. In the screenshot below, you can see a sample of the zip code data being ingested from the `PostalCodes` dataset.
+    > **NOTE :** This step cannot be performed in the lab environment. You can refer to the screenshot below to see how the data preview tab works. In a typical scenario, you would enable debug mode and then select the Data preview tab to see a sample of the data being ingested from the data source. This is useful for validating that the correct data is being read and that the schema is correct. In the screenshot below, you can see a sample of the zip code data being ingested from the `PostalCodes` dataset.
 
     > The `Zip` column is highlighted on the Data preview tab to show a sample of the values contained within that field. Below, you will filter the list of zip codes down to those that appear in the customer dataset.
 
