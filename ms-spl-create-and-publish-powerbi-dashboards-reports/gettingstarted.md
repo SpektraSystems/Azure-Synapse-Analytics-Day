@@ -1,4 +1,4 @@
-# SQL Datawarehouse with Syanpse
+# SQL Datawarehouse with Synapse
 
 ### Estimated Duration: 4 Hours
 
@@ -34,11 +34,11 @@ Participants should have the following prerequisites:
 - **No prior experience with Synapse Pipelines required**: This lab introduces low-code and code-based approaches for data processing.
 - **Access to an Azure Synapse Analytics workspace**: Ensure you have the necessary permissions to work with Pipelines, Notebooks, and Spark Pools.
 
-## Architechture
+## Architecture
 
 This lab follows a modern data warehouse architecture using Azure Synapse Analytics to ingest, process, and store data efficiently. Data is ingested from multiple sources, including Azure Data Lake Storage Gen2, Azure SQL Database, and external APIs. Synapse Pipelines handle ETL (Extract, Transform, Load) processes, while Synapse Notebooks enable data transformation and machine learning operations using Apache Spark. Data Flows provide a low-code approach for scalable data transformations within Synapse Pipelines. Monitoring tools like Azure Monitor, Log Analytics, and Synapse Studio help track pipeline execution, analyze Spark performance, and troubleshoot errors to ensure efficient data processing.
 
-## Architechture Diagram
+## Architecture Diagram
 
 ![](../media/Arch1.png)
 

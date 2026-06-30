@@ -112,7 +112,7 @@ Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipe
 
     ![](../media/T3.1S1-0112.png)
 
-1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **asaworkspace<inject key="Unique ID" enableCopy="false"/>**. Select all the files except the **test.txt** file and right click to select **New SQL script > Select TOP 100 rows (3)**.
+1. Navigate to `dev > bronze > sentiment` **(2)** folder in the primary data lake account **asaworkspace<inject key="Unique ID" enableCopy="false"/> (1)**. Select all the files except the **test.txt** file and right click to select **New SQL script (3) > Select TOP 100 rows (4)**.
 
    >NOTE: Select all the files except the **test.txt** file. You can use **Ctrl + Mouse right click** to select multiple files.
 
@@ -165,7 +165,7 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
    ![The Spark application logs are displayed.](../media/T4S6-0112.png "Logs")
    
-7. Back to **Diagnostics** To look closer at any individual job, you can use the **Job IDs** drop-down in canvas graph pane to select the job number.
+7. Back to **Diagnostics** to look closer at any individual job, you can use the **Job IDs** drop-down in canvas graph pane to select the job number.
 
    ![Job 2 is highlighted in the Job IDs drop-down list.](../media/ex02-monitor-activities-spark-applications-all-job-ids-2.1.png "Synapse Analytics Monitor")
 
@@ -185,7 +185,7 @@ In this task, you examine the Apache Spark application monitoring capabilities b
 
 11. Running a Playback allows you to observe the time required to complete each job, as well as review the rows read or written as the job progresses.
 
-    ![A screenshot of an in-progress playback is displayed. The playback is at 8s into the Spark application run, and Job 2 is showing progress.](../media/ex02-monitor-activities-spark-applications-playback-progress.1.png "Synapse Analytics Monitor")
+    ![A screenshot of an in-progress playback is displayed. The playback is at 8s into the Spark application run and Job 2 is showing progress.](../media/ex02-monitor-activities-spark-applications-playback-progress.1.png "Synapse Analytics Monitor")
 
 12. You can also perform playback on an individual job. Returning to a view of only Job 2 **(1)**, the **Playback (2)** button shows the rows written at this job, and the progress of reads and writes.
 
