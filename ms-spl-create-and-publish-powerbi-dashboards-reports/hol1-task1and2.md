@@ -182,6 +182,14 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
     ![](../media/sql-script-close.png)
 
+27. Select the **Linked (1)** tab, expand **Integration datasets (2)**, and select **cognitive_rest_dataset (3)**. Under the **Connection** tab, replace the value in the **Relative URL (4)** field with the following text:
+
+    ```
+    text/analytics/v3.1/sentiment?opinionMining=true
+    ```
+    ![](../media/cognitive_text_replace.png)
+
+
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
       
    - If you receive a success message, you can proceed to the next task.
@@ -385,15 +393,15 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
 35. The last step before running the pipeline is to publish the changes you have made. Select **Publish all** on the toolbar.
 
-    ![The Publish all button is highlighted on the Synapse Analytics Studio toolbar.](../media/T2S35-0112.png "Publish")
+    ![The Publish all button is highlighted on the Synapse Analytics Studio toolbar.](../media/T2S35-0112-1.png "Publish")
 
 36. On the **Publish all** dialog, select **Publish**.
 
     > This Publish all dialog allows you to review the changes that will be saved.
 
-    ![](../media/publish.png)
+    ![](../media/publish-1.png)
 
-37. Within a few seconds, you _may_ receive a notification that the publish completed.
+37. Within a few seconds, you may receive a notification that the publish completed.
 
 38. Your pipeline is now ready to run. Select **Add trigger (1)** then **Trigger now (2)** on the toolbar for the pipeline.
 
