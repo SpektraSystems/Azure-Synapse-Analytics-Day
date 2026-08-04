@@ -110,8 +110,8 @@ Use the **slider (three vertical dots)** located between the **Virtual Machine**
    ![](../media/s10.png)
 
    >**Note:** If you encounter a pop up for Extension added in Microsoft Edge browser, please click on either of the options to continue. 
-
-   >   ![](../media/note-1102.png)
+   >
+   >![](../media/note-1102.png)
 
 1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
 
