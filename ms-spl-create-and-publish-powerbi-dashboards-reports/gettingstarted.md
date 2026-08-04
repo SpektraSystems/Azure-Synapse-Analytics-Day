@@ -64,8 +64,9 @@ Once you're ready to dive in, your virtual machine and **Guide** will be right a
 
    ![](../media/guide-0312.png) 
 
-  >**Note:** After launching the lab if you see a **Send diagnostic data to Microsoft** window, click on **Accept** to continue. 
-   ![](../media/win1.png) 
+   >**Note:** After launching the lab if you see a **Send diagnostic data to Microsoft** window, click on **Accept** to continue. 
+   > 
+   >![](../media/win1.png) 
 
 ## Virtual Machine & Lab Guide
 
