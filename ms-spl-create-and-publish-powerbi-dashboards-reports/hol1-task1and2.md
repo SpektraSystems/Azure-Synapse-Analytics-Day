@@ -14,10 +14,10 @@ In this exercise, you explore and modify a Synapse notebook to understand how da
 
 In this exercise, you will perform the following tasks:
 
-  - Task 1 - Explore and modify a notebook
-  - Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
+  - Task 1: Explore and modify a notebook
+  - Task 2: Explore, modify, and run a Pipeline containing a Data Flow
 
-### Task 1 - Explore and modify a notebook
+### Task 1: Explore and modify a notebook
 
 In this task, you see how easy it is to write into a SQL Pool table with Spark thanks to the SQL Analytics Connector. Notebooks are used to write the code required to write to SQL Pool tables using Spark.
 
@@ -198,7 +198,7 @@ In this task, you see how easy it is to write into a SQL Pool table with Spark t
 
 <validation step="0ed2a2e6-1b08-4524-a785-7ec3111f94c9" />
 
-### Task 2 - Explore, modify, and run a Pipeline containing a Data Flow
+### Task 2: Explore, modify, and run a Pipeline containing a Data Flow
 
 In this task, you use a Pipeline that implements Code-free AI to do sentiment analysis on customer feedback and contains a Data Flow to explore, transform, and load data into an Azure Synapse Analytics table. Using Cognitive Services and data flows in Pipelines allows you to handle code-free AI workloads, perform data ingestion and transformations, similar to what you did in Task 1, but without writing any code
 
@@ -206,7 +206,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
    ![Integrate hub.](../media/integrate-hub.png "Integrate hub")
 
-2. In the Integrate menu, expand **Pipelines (1)**, then select **Exercise 2 - Enrich Data (2)**.It opens a **pipeline canvas (3)** on right side.
+2. In the Integrate menu, expand **Pipelines (1)**, then select **Exercise 2 - Enrich Data (2)**. It opens a **pipeline canvas (3)** on right side.
 
    ![The Enrich Data pipeline is selected.](../media/integrate.png "Pipelines")
 
@@ -365,7 +365,7 @@ In this task, you use a Pipeline that implements Code-free AI to do sentiment an
 
     > You have probably noticed that the `SelectDesiredColumns` transformation appears twice in the graph. To enable writing the resulting dataset to two different sinks, Azure Synapse Analytics and Azure Data Lake Storage Gen2, a **Conditional split** multiple outputs transformation is required. This split is displayed in the graph as a repeat of the split item.
 
-    ![The SelectDesiredColumns transformation is highlighted in the data flow graph.](../media/ex02-orchestrate-data-flow-transformations-select.1.png "Data flow canvas")
+    ![The SelectDesiredColumns transformation is highlighted in the data flow graph.](../media/ex02-orchestrate-data-flow-transformations-select.1-n.png "Data flow canvas")
 
 29. The last two items in the data flow are the defined sinks. These provide the connection settings necessary to write the transformed data into the desired data sink. Select the **EnrichCustomerData** sink and inspect the settings on the **Sink** tab.
 

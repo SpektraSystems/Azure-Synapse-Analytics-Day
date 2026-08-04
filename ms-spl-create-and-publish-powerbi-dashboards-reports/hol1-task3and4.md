@@ -20,7 +20,7 @@ In this exercise, you will perform the following tasks:
     
   - Task 2: Monitor Spark applications
 
-### Task 1 - Monitor pipelines
+### Task 1: Monitor pipelines
 
 After you finish building and debugging your data flow and its associated pipeline, you will be able to monitor the execution of the pipeline and all of the activities contained within it, including the Data Flow activity. In this task, you review the [pipeline monitoring functionality in Azure Synapse Analytics](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-monitoring) using the pipeline run you initiated at the end of the previous task.
 
@@ -131,7 +131,7 @@ Remember the sentiment analysis task we had in our Exercise 2 - Enrich Data pipe
 
     Your query targets the JSON files created as the result of the Sentiment analysis run through Azure Cognitive Services. Here you see a simple query that shows the list of Customer IDs and how their feedback is interpreted in the context of sentiment reflection.
     
-## Task 2 - Monitor Spark applications
+## Task 2: Monitor Spark applications
 
 In this task, you examine the Apache Spark application monitoring capabilities built into Azure Synapse Analytics. The Spark application monitoring screens provide a view into the logs for the Spark application, including a graphical view of those logs.
 
